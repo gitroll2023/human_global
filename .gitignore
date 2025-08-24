@@ -34,3 +34,7 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# project documentation
+PRD_Korean_Partnership_Platform.md
+README_LMS.md
