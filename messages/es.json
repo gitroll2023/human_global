@@ -1,0 +1,330 @@
+{
+  "common": {
+    "siteName": "HumanEdge Academy",
+    "tagline": "Potenciando la Humanidad en la Era de la IA",
+    "login": "Iniciar Sesión",
+    "register": "Comenzar",
+    "logout": "Cerrar Sesión",
+    "dashboard": "Panel",
+    "courses": "Cursos",
+    "pricing": "Precios",
+    "about": "Acerca de",
+    "contact": "Contacto",
+    "language": "Idioma",
+    "search": "Buscar",
+    "profile": "Perfil",
+    "settings": "Configuración",
+    "welcome": "Bienvenido",
+    "loading": "Cargando...",
+    "error": "Error",
+    "success": "Éxito",
+    "cancel": "Cancelar",
+    "save": "Guardar",
+    "edit": "Editar",
+    "delete": "Eliminar",
+    "confirm": "Confirmar",
+    "back": "Atrás",
+    "next": "Siguiente",
+    "previous": "Anterior",
+    "viewAll": "Ver Todo",
+    "learnMore": "Saber Más",
+    "getStarted": "Comenzar Tu Viaje",
+    "koreaLaunch": "Próximamente en Corea Agosto 2024"
+  },
+  "navigation": {
+    "home": "Inicio",
+    "courses": "Cursos",
+    "pricing": "Precios",
+    "forBusiness": "Para Empresas",
+    "partners": "Socios",
+    "resources": "Recursos",
+    "about": "Acerca de",
+    "blog": "Blog",
+    "support": "Soporte"
+  },
+  "homepage": {
+    "hero": {
+      "title": "Asegura Tu Futuro Profesional con Humanidades",
+      "subtitle": "As AI transforms the job market, develop uniquely human skills that machines can't replace. Join 500,000+ learners across 20 countries.",
+      "cta": "Start Free Trial",
+      "secondaryCta": "View Courses",
+      "stats": {
+        "students": "Active Learners",
+        "countries": "Countries",
+        "courses": "Expert-Led Courses",
+        "completion": "Job Transition Success"
+      },
+      "announcement": {
+        "badge": "New Launch",
+        "text": "Launching in South Korea - August 2025",
+        "link": "Learn about our Korea partnership"
+      }
+    },
+    "mission": {
+      "title": "Why HumanEdge Academy?",
+      "subtitle": "In an era where AI is reshaping every industry, we help professionals develop irreplaceable human skills",
+      "points": [
+        {
+          "title": "AI-Proof Skills",
+          "description": "Master critical thinking, creativity, and emotional intelligence - skills AI cannot replicate"
+        },
+        {
+          "title": "Career Transition Support",
+          "description": "Guided pathways for professionals adapting to AI-driven workplace changes"
+        },
+        {
+          "title": "Global Recognition",
+          "description": "Certificates recognized by employers in 20+ countries"
+        },
+        {
+          "title": "Flexible Learning",
+          "description": "Self-paced courses designed for working professionals"
+        }
+      ]
+    },
+    "globalPresence": {
+      "title": "Trusted Worldwide",
+      "subtitle": "Operating in 20 countries with local partnerships",
+      "countries": "United States, United Kingdom, Germany, France, Spain, Italy, Netherlands, Sweden, Brazil, Chile, Mexico, Thailand, Singapore, Japan, Australia, India, Canada, Poland, Portugal, Turkey",
+      "koreaInfo": {
+        "title": "Launching in South Korea",
+        "description": "We're excited to announce our expansion to South Korea in August 2025 through an exclusive partnership with a leading Korean education company.",
+        "features": [
+          "Korean language support coming soon",
+          "Localized payment methods",
+          "Local customer support",
+          "Partnership with Korean universities"
+        ]
+      }
+    },
+    "features": {
+      "title": "Platform Features",
+      "subtitle": "Everything you need for successful career transition",
+      "feature1": {
+        "title": "Expert Instructors",
+        "description": "Learn from leading philosophers, historians, and humanities scholars"
+      },
+      "feature2": {
+        "title": "Interactive Learning",
+        "description": "Engage with live discussions, peer reviews, and practical projects"
+      },
+      "feature3": {
+        "title": "Career Guidance",
+        "description": "Personalized coaching for career transition in the AI era"
+      },
+      "feature4": {
+        "title": "Lifetime Access",
+        "description": "Once enrolled, access your courses forever with free updates"
+      }
+    },
+    "programs": {
+      "title": "Humanities for the Future",
+      "subtitle": "Develop skills that complement AI, not compete with it",
+      "philosophy": "Critical Thinking & Ethics",
+      "history": "Pattern Recognition & Context",
+      "literature": "Communication & Storytelling",
+      "psychology": "Emotional Intelligence",
+      "culturalStudies": "Global Perspective",
+      "creativity": "Innovation & Design Thinking",
+      "artHistory": "Historia del Arte y Cultura Visual",
+      "linguistics": "Linguística y Comunicación"
+    },
+    "testimonials": {
+      "title": "Success Stories",
+      "subtitle": "How our learners successfully transitioned their careers"
+    },
+    "pricing": {
+      "title": "Simple, Transparent Pricing",
+      "subtitle": "Choose the plan that fits your learning journey",
+      "monthly": "Monthly",
+      "annual": "Annual (Save 20%)",
+      "currency": "USD"
+    }
+  },
+  "pricing": {
+    "title": "Invest in Your Future",
+    "subtitle": "Join 500,000+ learners preparing for the AI-driven economy",
+    "plans": {
+      "starter": {
+        "name": "Starter",
+        "price": "$29",
+        "period": "/month",
+        "description": "Perfect for exploring humanities",
+        "features": [
+          "Access to 50+ courses",
+          "Basic certificates",
+          "Community forum access",
+          "Mobile app access"
+        ]
+      },
+      "professional": {
+        "name": "Professional",
+        "price": "$79",
+        "period": "/month",
+        "description": "For serious career changers",
+        "badge": "Most Popular",
+        "features": [
+          "Access to all 200+ courses",
+          "Professional certificates",
+          "1-on-1 career coaching (monthly)",
+          "Priority support",
+          "Downloadable resources",
+          "Live webinars"
+        ]
+      },
+      "enterprise": {
+        "name": "Enterprise",
+        "price": "Custom",
+        "period": "",
+        "description": "For teams and organizations",
+        "features": [
+          "Custom course curation",
+          "Team management dashboard",
+          "Dedicated success manager",
+          "Custom certificates",
+          "API access",
+          "Invoice billing"
+        ]
+      }
+    },
+    "payment": {
+      "secure": "Secure payment via",
+      "methods": ["PayPal", "Stripe", "Credit Card"],
+      "guarantee": "30-day money-back guarantee"
+    }
+  },
+  "courses": {
+    "title": "Course Catalog",
+    "subtitle": "Develop uniquely human skills for the AI era",
+    "filters": {
+      "all": "Todos los Cursos",
+      "level": "Nivel",
+      "category": "Categoría",
+      "duration": "Duración",
+      "language": "Idioma",
+      "beginner": "Principiante",
+      "intermediate": "Intermedio",
+      "advanced": "Avanzado",
+      "title": "Filtros"
+    },
+    "search": "Buscar cursos...",
+    "resultsCount": "{{count}} {{count, plural, =0 {cursos} =1 {curso} other {cursos}}} encontrados",
+    "noCourses": "No se encontraron cursos que coincidan con tus criterios.",
+    "tryAdjusting": "Intenta ajustar tus filtros o búsqueda.",
+    "categories": {
+      "all": "Todas las Categorías",
+      "philosophy": "Filosofía",
+      "history": "Historia",
+      "literature": "Literatura",
+      "artHistory": "Historia del Arte",
+      "culturalStudies": "Estudios Culturales",
+      "linguistics": "Lingüística",
+      "religion": "Religión",
+      "classics": "Clásicos",
+      "criticalThinking": "Pensamiento Crítico",
+      "ethics": "Ética y Filosofía de IA",
+      "creativity": "Resolución Creativa de Problemas",
+      "communication": "Comunicación Avanzada",
+      "leadership": "Liderazgo Centrado en el Humano",
+      "culturalIntelligence": "Inteligencia Cultural",
+      "emotionalIntelligence": "Inteligencia Emocional",
+      "systemsThinking": "Pensamiento Sistémico"
+    },
+    "card": {
+      "enroll": "Inscribirse Ahora",
+      "viewDetails": "Ver Detalles",
+      "preview": "Vista Previa",
+      "instructor": "Instructor",
+      "weeks": "semanas",
+      "lessons": "lecciones",
+      "students": "estudiantes",
+      "rating": "calificación",
+      "beginner": "Principiante",
+      "intermediate": "Intermedio",
+      "advanced": "Avanzado",
+      "level": "Nivel",
+      "duration": "Duración",
+      "enrollmentAlert": {
+        "title": "Registro Requerido",
+        "description": "Por favor, crea una cuenta o inicia sesión para inscribirte en este curso.",
+        "signUp": "Registrarse",
+        "signIn": "Iniciar Sesión",
+        "cancel": "Cancelar"
+      }
+    }
+  },
+  "ceo": {
+    "name": "Dr. Michael Harrison",
+    "title": "Fundador y CEO",
+    "subtitle": "Doctor por Harvard Divinity School | Investigador del MIT AI Lab",
+    "greeting": "Estimados Estudiantes Globales,",
+    "message": {
+      "intro": "Como investigador en el MIT AI Lab y estudiante de por vida de la naturaleza humana, he sido testigo de primera mano de cómo la inteligencia artificial está remodelando nuestro mundo. Sin embargo, a través de todo este avance tecnológico, una verdad permanece clara: la esencia de la humanidad - nuestra creatividad, empatía, sabiduría y razonamiento moral - no puede ser replicada por las máquinas.",
+      "philosophy": "Creo que cada cultura posee una pieza única de sabiduría esencial para navegar la era de la IA. Por eso HumanEdge Academy no es simplemente otra plataforma de educación en línea. Estamos llevando a cabo un experimento global en el aprendizaje humano, entendiendo cómo diferentes culturas, religiones y tradiciones filosóficas abordan las preguntas fundamentales de nuestro tiempo.",
+      "mission": "Nuestra misión se extiende más allá de la educación. Estamos construyendo puentes entre la sabiduría ancestral y la tecnología de vanguardia, entre la filosofía oriental y la innovación occidental, entre las tradiciones de fe y el progreso científico. Cada uno de nuestros centros globales sirve como un laboratorio donde descubrimos cómo la sabiduría local puede informar el desarrollo humano universal.",
+      "globalVision": "Comenzando con Corea del Sur en agosto de 2025, seguido por Japón, Brasil e India, no estamos simplemente traduciendo cursos - estamos co-creando conocimiento con filósofos locales, líderes religiosos y expertos culturales. Esto no se trata de imponer una sola visión del mundo; se trata de celebrar la diversidad del pensamiento humano mientras encontramos nuestra humanidad común.",
+      "personalNote": "Como cristiano, me inspiro en mi fe, pero respeto profundamente y aprendo de todas las tradiciones religiosas y filosóficas. Ya sea la ética confuciana, la mindfulness budista, la filosofía hindú o el humanismo secular, cada tradición ofrece perspectivas invaluables para preservar la dignidad humana en la era de la IA.",
+      "closing": "Únete a nosotros en este gran experimento. Juntos, aseguraremos que mientras las máquinas se vuelven más inteligentes, los humanos se vuelvan más humanos.",
+      "signature": "En la diversidad, encontramos unidad. En las preguntas, encontramos la verdad."
+    },
+    "bio": {
+      "education": "Doctorado de Harvard Divinity School, Investigador en MIT AI Lab",
+      "experience": "20+ años en investigación de IA y educación en humanidades",
+      "achievement": "Pionero en ética de IA y tecnología centrada en el humano",
+      "publication": "Autor de 'El Alma en la Máquina' (2023)",
+      "research": "Investigador líder en ética de IA intercultural"
+    },
+    "quote": "Cuando las máquinas calculan, los humanos deben contemplar.",
+    "book": {
+      "title": "El Alma en la Máquina",
+      "subtitle": "Encontrando el Propósito Humano en la Era de la IA",
+      "description": "Una exploración revolucionaria de cómo la humanidad puede prosperar junto a la inteligencia artificial"
+    },
+    "globalExperiment": {
+      "title": "El Experimento Global de Aprendizaje",
+      "description": "Estamos asociándonos con comunidades locales de todo el mundo para entender cómo diferentes culturas abordan la IA y el desarrollo humano",
+      "timeline": {
+        "korea": "Corea del Sur - Agosto 2025",
+        "japan": "Japón - Septiembre 2025",
+        "brazil": "Brasil - Octubre 2025",
+        "india": "India - Noviembre 2025"
+      }
+    }
+  },
+  "footer": {
+    "about": {
+      "title": "About",
+      "mission": "Our Mission",
+      "careers": "Careers",
+      "press": "Press",
+      "partners": "Partners"
+    },
+    "learn": {
+      "title": "Learn",
+      "courses": "Browse Courses",
+      "programs": "Certificate Programs",
+      "enterprise": "For Enterprise",
+      "educators": "For Educators"
+    },
+    "support": {
+      "title": "Support",
+      "help": "Help Center",
+      "contact": "Contact Us",
+      "faq": "FAQ",
+      "systemStatus": "System Status"
+    },
+    "legal": {
+      "title": "Legal",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service",
+      "cookies": "Cookie Policy",
+      "accessibility": "Accessibility"
+    },
+    "social": {
+      "title": "Connect",
+      "followUs": "Follow Us"
+    },
+    "copyright": "© 2025 HumanEdge Academy. All rights reserved.",
+    "koreaNotice": "Korean language support coming August 2025"
+  }
+}

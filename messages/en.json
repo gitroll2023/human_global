@@ -1,0 +1,596 @@
+{
+  "common": {
+    "siteName": "HumanEdge Academy",
+    "tagline": "Empowering Humanity in the AI Era",
+    "login": "Login",
+    "register": "Get Started",
+    "logout": "Logout",
+    "dashboard": "Dashboard",
+    "courses": "Courses",
+    "pricing": "Pricing",
+    "about": "About",
+    "contact": "Contact",
+    "language": "Language",
+    "search": "Search",
+    "profile": "Profile",
+    "settings": "Settings",
+    "welcome": "Welcome",
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "cancel": "Cancel",
+    "save": "Save",
+    "edit": "Edit",
+    "delete": "Delete",
+    "confirm": "Confirm",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "viewAll": "View All",
+    "learnMore": "Learn More",
+    "getStarted": "Start Your Journey",
+    "koreaLaunch": "Coming to Korea August 2025"
+  },
+  "navigation": {
+    "home": "Home",
+    "courses": "Courses",
+    "pricing": "Pricing",
+    "forBusiness": "For Business",
+    "partners": "Partners",
+    "resources": "Resources",
+    "about": "About",
+    "blog": "Blog",
+    "support": "Support"
+  },
+  "homepage": {
+    "hero": {
+      "title": "Future-Proof Your Career with Humanities",
+      "subtitle": "As AI transforms the job market, develop uniquely human skills that machines can't replace. Join 500,000+ learners across 20 countries.",
+      "cta": "Start Free Trial",
+      "secondaryCta": "View Courses",
+      "stats": {
+        "students": "Active Learners",
+        "countries": "Countries",
+        "courses": "Expert-Led Courses",
+        "completion": "Job Transition Success"
+      },
+      "announcement": {
+        "badge": "New Launch",
+        "text": "Launching in South Korea - August 2025",
+        "link": "Learn about our Korea partnership"
+      }
+    },
+    "mission": {
+      "title": "Why HumanEdge Academy?",
+      "subtitle": "In an era where AI is reshaping every industry, we help professionals develop irreplaceable human skills",
+      "points": [
+        {
+          "title": "AI-Proof Skills",
+          "description": "Master critical thinking, creativity, and emotional intelligence - skills AI cannot replicate"
+        },
+        {
+          "title": "Career Transition Support",
+          "description": "Guided pathways for professionals adapting to AI-driven workplace changes"
+        },
+        {
+          "title": "Global Recognition",
+          "description": "Certificates recognized by employers in 20+ countries"
+        },
+        {
+          "title": "Flexible Learning",
+          "description": "Self-paced courses designed for working professionals"
+        }
+      ]
+    },
+    "globalPresence": {
+      "title": "Trusted Worldwide",
+      "subtitle": "Operating in 20 countries with local partnerships",
+      "countries": "United States, United Kingdom, Germany, France, Spain, Italy, Netherlands, Sweden, Brazil, Chile, Mexico, Thailand, Singapore, Japan, Australia, India, Canada, Poland, Portugal, Turkey",
+      "koreaInfo": {
+        "title": "Launching in South Korea",
+        "description": "We're excited to announce our expansion to South Korea in August 2025 through an exclusive partnership with a leading Korean education company.",
+        "features": [
+          "Korean language support coming soon",
+          "Localized payment methods",
+          "Local customer support",
+          "Partnership with Korean universities"
+        ]
+      }
+    },
+    "features": {
+      "title": "Platform Features",
+      "subtitle": "Everything you need for successful career transition",
+      "feature1": {
+        "title": "Expert Instructors",
+        "description": "Learn from leading philosophers, historians, and humanities scholars"
+      },
+      "feature2": {
+        "title": "Interactive Learning",
+        "description": "Engage with live discussions, peer reviews, and practical projects"
+      },
+      "feature3": {
+        "title": "Career Guidance",
+        "description": "Personalized coaching for career transition in the AI era"
+      },
+      "feature4": {
+        "title": "Lifetime Access",
+        "description": "Once enrolled, access your courses forever with free updates"
+      }
+    },
+    "programs": {
+      "title": "Humanities for the Future",
+      "subtitle": "Develop skills that complement AI, not compete with it",
+      "philosophy": "Critical Thinking & Ethics",
+      "history": "Pattern Recognition & Context",
+      "literature": "Communication & Storytelling",
+      "psychology": "Emotional Intelligence",
+      "culturalStudies": "Global Perspective",
+      "creativity": "Innovation & Design Thinking",
+      "artHistory": "Art History & Visual Culture",
+      "linguistics": "Language & Communication"
+    },
+    "testimonials": {
+      "title": "Success Stories",
+      "subtitle": "How our learners successfully transitioned their careers"
+    },
+    "pricing": {
+      "title": "Simple, Transparent Pricing",
+      "subtitle": "Choose the plan that fits your learning journey",
+      "monthly": "Monthly",
+      "annual": "Annual (Save 20%)",
+      "currency": "USD"
+    }
+  },
+  "pricing": {
+    "title": "Invest in Your Future",
+    "subtitle": "Join 500,000+ learners preparing for the AI-driven economy",
+    "plans": {
+      "starter": {
+        "name": "Starter",
+        "price": "$29",
+        "period": "/month",
+        "description": "Perfect for exploring humanities",
+        "features": [
+          "Access to 50+ courses",
+          "Basic certificates",
+          "Community forum access",
+          "Mobile app access"
+        ]
+      },
+      "professional": {
+        "name": "Professional",
+        "price": "$79",
+        "period": "/month",
+        "description": "For serious career changers",
+        "badge": "Most Popular",
+        "features": [
+          "Access to all 200+ courses",
+          "Professional certificates",
+          "1-on-1 career coaching (monthly)",
+          "Priority support",
+          "Downloadable resources",
+          "Live webinars"
+        ]
+      },
+      "enterprise": {
+        "name": "Enterprise",
+        "price": "Custom",
+        "period": "",
+        "description": "For teams and organizations",
+        "features": [
+          "Custom course curation",
+          "Team management dashboard",
+          "Dedicated success manager",
+          "Custom certificates",
+          "API access",
+          "Invoice billing"
+        ]
+      }
+    },
+    "payment": {
+      "secure": "Secure payment via",
+      "methods": ["PayPal", "Stripe", "Credit Card"],
+      "guarantee": "30-day money-back guarantee"
+    }
+  },
+  "courses": {
+    "title": "Course Catalog",
+    "subtitle": "Develop uniquely human skills for the AI era",
+    "filters": {
+      "all": "All Courses",
+      "level": "Level",
+      "category": "Category",
+      "duration": "Duration",
+      "language": "Language",
+      "beginner": "Beginner",
+      "intermediate": "Intermediate",
+      "advanced": "Advanced",
+      "title": "Filters"
+    },
+    "search": "Search courses...",
+    "resultsCount": "{{count}} {{count, plural, =0 {courses} =1 {course} other {courses}}} found",
+    "noCourses": "No courses found matching your criteria.",
+    "tryAdjusting": "Try adjusting your filters or search query.",
+    "categories": {
+      "all": "All Categories",
+      "philosophy": "Philosophy",
+      "history": "History",
+      "literature": "Literature",
+      "artHistory": "Art History",
+      "culturalStudies": "Cultural Studies",
+      "linguistics": "Linguistics",
+      "religion": "Religion",
+      "classics": "Classics",
+      "criticalThinking": "Critical Thinking",
+      "ethics": "AI Ethics & Philosophy",
+      "creativity": "Creative Problem Solving",
+      "communication": "Advanced Communication",
+      "leadership": "Human-Centered Leadership",
+      "culturalIntelligence": "Cultural Intelligence",
+      "emotionalIntelligence": "Emotional Intelligence",
+      "systemsThinking": "Systems Thinking"
+    },
+    "card": {
+      "enroll": "Enroll Now",
+      "viewDetails": "View Details",
+      "preview": "Preview",
+      "instructor": "Instructor",
+      "weeks": "weeks",
+      "lessons": "lessons",
+      "students": "students",
+      "rating": "rating",
+      "beginner": "Beginner",
+      "intermediate": "Intermediate",
+      "advanced": "Advanced",
+      "level": "Level",
+      "duration": "Duration",
+      "enrollmentAlert": {
+        "title": "Registration Required",
+        "description": "Please create an account or sign in to enroll in this course.",
+        "signUp": "Sign Up",
+        "signIn": "Sign In",
+        "cancel": "Cancel"
+      }
+    }
+  },
+  "ceo": {
+    "name": "Dr. Michael Harrison",
+    "title": "Founder & CEO",
+    "subtitle": "Harvard Divinity School PhD | MIT AI Lab Researcher",
+    "greeting": "Dear Global Learners,",
+    "message": {
+      "intro": "As a researcher at MIT's AI Lab and a lifelong student of human nature, I've witnessed firsthand how artificial intelligence is reshaping our world. Yet, through all this technological advancement, one truth remains clear: the essence of humanity - our creativity, empathy, wisdom, and moral reasoning - cannot be replicated by machines.",
+      "philosophy": "I believe every culture holds a unique piece of wisdom essential for navigating the AI era. That's why HumanEdge Academy isn't just another online education platform. We're conducting a global experiment in human learning, understanding how different cultures, religions, and philosophical traditions approach the fundamental questions of our time.",
+      "mission": "Our mission extends beyond education. We're building bridges between ancient wisdom and cutting-edge technology, between Eastern philosophy and Western innovation, between faith traditions and scientific progress. Each of our global centers serves as a laboratory where we discover how local wisdom can inform universal human development.",
+      "globalVision": "Starting with South Korea in August 2025, followed by Japan, Brazil, and India, we're not simply translating courses - we're co-creating knowledge with local philosophers, religious leaders, and cultural experts. This isn't about imposing a single worldview; it's about celebrating the diversity of human thought while finding our common humanity.",
+      "personalNote": "As a Christian, I draw inspiration from my faith, but I deeply respect and learn from all religious and philosophical traditions. Whether it's Confucian ethics, Buddhist mindfulness, Hindu philosophy, or secular humanism, each tradition offers invaluable insights for preserving human dignity in the age of AI.",
+      "closing": "Join us in this grand experiment. Together, we'll ensure that as machines become more intelligent, humans become more human.",
+      "signature": "In diversity, we find unity. In questions, we find truth."
+    },
+    "bio": {
+      "education": "PhD from Harvard Divinity School, Research Fellow at MIT AI Lab",
+      "experience": "20+ years in AI research and humanities education",
+      "achievement": "Pioneer in AI ethics and human-centered technology",
+      "publication": "Author of 'The Soul in the Machine' (2023)",
+      "research": "Leading researcher in cross-cultural AI ethics"
+    },
+    "quote": "When machines compute, humans must contemplate.",
+    "book": {
+      "title": "The Soul in the Machine",
+      "subtitle": "Finding Human Purpose in the Age of AI",
+      "description": "A groundbreaking exploration of how humanity can thrive alongside artificial intelligence"
+    },
+    "globalExperiment": {
+      "title": "The Global Learning Experiment",
+      "description": "We're partnering with local communities worldwide to understand how different cultures approach AI and human development",
+      "timeline": {
+        "korea": "South Korea - August 2025",
+        "japan": "Japan - September 2025",
+        "brazil": "Brazil - October 2025",
+        "india": "India - November 2025"
+      }
+    }
+  },
+  "footer": {
+    "about": {
+      "title": "About",
+      "mission": "Our Mission",
+      "vision": "Our Vision",
+      "values": "Our Values",
+      "leadership": "Leadership Team",
+      "careers": "Careers",
+      "press": "Press",
+      "partners": "Partners"
+    },
+    "academics": {
+      "title": "Academics",
+      "programs": "Programs",
+      "courses": "Browse Courses",
+      "faculty": "Faculty",
+      "research": "Research"
+    },
+    "learn": {
+      "title": "Learn",
+      "courses": "Browse Courses",
+      "programs": "Certificate Programs",
+      "enterprise": "For Enterprise",
+      "educators": "For Educators"
+    },
+    "support": {
+      "title": "Support",
+      "help": "Help Center",
+      "contact": "Contact Us",
+      "faq": "FAQ",
+      "technical": "Technical Support",
+      "systemStatus": "System Status"
+    },
+    "legal": {
+      "title": "Legal",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service",
+      "cookies": "Cookie Policy",
+      "accessibility": "Accessibility"
+    },
+    "social": {
+      "title": "Connect",
+      "followUs": "Follow Us"
+    },
+    "copyright": "© 2025 HumanEdge Academy. All rights reserved.",
+    "koreaNotice": "Korean language support coming August 2025"
+  },
+  "programs": {
+    "title": "Programs",
+    "subtitle": "Structured humanities education programs for the AI era",
+    "redirecting": "Redirecting to courses page...",
+    "types": {
+      "foundation": {
+        "title": "Foundation Courses",
+        "description": "Essential humanities skills for the AI era"
+      },
+      "certificate": {
+        "title": "Professional Certificates", 
+        "description": "Career-focused certifications that employers value"
+      },
+      "specialization": {
+        "title": "Specialization Programs",
+        "description": "Deep expertise in specific humanities domains"
+      },
+      "partnership": {
+        "title": "Global Partnerships",
+        "description": "University credit and degree pathway programs"
+      }
+    },
+    "featured": {
+      "title": "Featured Programs",
+      "foundation": "Foundation",
+      "certificate": "Certificate",
+      "specialization": "Specialization"
+    },
+    "stats": {
+      "activeStudents": "Active Students",
+      "jobPlacement": "Job Placement",
+      "partnerUniversities": "Partner Universities", 
+      "countries": "Countries"
+    },
+    "duration": "Duration",
+    "students": "Students",
+    "explore": "Explore Programs"
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "How Can We Help?",
+    "description": "HumanEdge Academy is committed to helping professionals thrive in the AI era. Find answers to common questions below.",
+    "search": "Search for answers...",
+    "categories": {
+      "courses": "Courses & Learning",
+      "pricing": "Pricing & Payment",
+      "account": "Account & Profile",
+      "certificates": "Certificates & Credits",
+      "technical": "Technical Support",
+      "global": "Global Programs"
+    },
+    "noResults": "No results found",
+    "tryAdjusting": "Try adjusting your search terms or browse our categories above.",
+    "clearSearch": "Clear Search",
+    "searchResults": "Search Results",
+    "allQuestions": "All Questions",
+    "stillNeedHelp": "Still Need Help?",
+    "cantFind": "Can't find what you're looking for? Our support team will get back to you within 24 hours.",
+    "contactSupport": "Contact Support",
+    "helpCenter": "Help Center"
+  },
+  "contact": {
+    "title": "Contact HumanEdge Academy",
+    "subtitle": "Get in Touch",
+    "description": "Have questions, need help, or want to explore partnership opportunities? We're here to help. Choose the method that works best for you.",
+    "form": {
+      "title": "Send us a Message",
+      "description": "Fill out the form below and we'll get back to you within 24 hours.",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "Email",
+      "phone": "Phone (Optional)",
+      "subject": "Subject",
+      "subjectPlaceholder": "Select a topic",
+      "message": "Message",
+      "messagePlaceholder": "Type your message here...",
+      "send": "Send Message"
+    },
+    "methods": {
+      "email": {
+        "title": "Email Support",
+        "address": "support@humanedge.academy",
+        "description": "Get help within 24 hours"
+      },
+      "phone": {
+        "title": "Phone Support",
+        "number": "+1 (555) 123-4567",
+        "hours": "Mon-Fri 9AM-6PM EST"
+      },
+      "headquarters": {
+        "title": "Headquarters",
+        "address": "100 Global Education Blvd",
+        "city": "New York, NY 10001",
+        "country": "United States"
+      },
+      "local": {
+        "title": "Local Support",
+        "description": "Local support worldwide"
+      }
+    },
+    "departments": {
+      "title": "Contact by Department",
+      "academic": {
+        "title": "Academic Support",
+        "email": "academic@humanedge.academy",
+        "description": "Course content, assignments, academic guidance"
+      },
+      "technical": {
+        "title": "Technical Support",
+        "email": "tech@humanedge.academy",
+        "description": "Platform issues, account access, technical help"
+      },
+      "billing": {
+        "title": "Billing & Payment",
+        "email": "billing@humanedge.academy",
+        "description": "Payments, refunds, subscription management"
+      },
+      "partnership": {
+        "title": "Partnerships",
+        "email": "partners@humanedge.academy",
+        "description": "Corporate, university, government partnerships"
+      }
+    },
+    "quickHelp": {
+      "title": "Need Quick Answers?",
+      "description": "Check our resources for immediate help on common topics.",
+      "faq": "View FAQ",
+      "guide": "Start Guide",
+      "support": "Support Center",
+      "community": "Community Forum"
+    }
+  },
+  "partners": {
+    "title": "Operating in 20 Countries",
+    "subtitle": "Global Partnership Network",
+    "description": "We collaborate with universities, corporations, and governments to deliver transformative humanities education to professionals worldwide.",
+    "types": {
+      "university": {
+        "title": "University Partners",
+        "count": "45+",
+        "description": "Leading universities for credit recognition and degree pathways"
+      },
+      "corporate": {
+        "title": "Corporate Partners",
+        "count": "120+",
+        "description": "Employee training and talent development programs"
+      },
+      "government": {
+        "title": "Government Partners",
+        "count": "15+",
+        "description": "National education initiatives and public sector training"
+      },
+      "certification": {
+        "title": "Certification Bodies",
+        "count": "25+",
+        "description": "Professional certifications and qualification standards"
+      }
+    },
+    "presence": {
+      "title": "Our Global Presence",
+      "new": "New",
+      "countries": "Countries of Operation"
+    },
+    "benefits": {
+      "title": "Partnership Benefits",
+      "academic": "Academic Excellence",
+      "global": "Global Reach",
+      "innovation": "Innovation Leadership",
+      "support": "Dedicated Support"
+    },
+    "cta": {
+      "title": "Become a Partner",
+      "description": "Join us in shaping the future of humanities education. Together, we can prepare the workforce for the AI era.",
+      "contact": "Contact Partnership Team",
+      "download": "Download Partnership Guide"
+    },
+    "testimonials": {
+      "title": "Partnership Success Stories"
+    }
+  },
+  "resources": {
+    "title": "Free Learning Resources",
+    "subtitle": "Resources & Learning Materials",
+    "description": "Explore our comprehensive collection of guides, articles, tools, and templates to help you succeed in the AI era.",
+    "search": "Search resources...",
+    "categories": {
+      "all": "All Resources",
+      "guides": "Guides",
+      "videos": "Videos",
+      "articles": "Articles",
+      "tools": "Tools",
+      "research": "Research"
+    },
+    "featured": "Featured Resources",
+    "view": "View",
+    "viewResource": "View Resource",
+    "newsletter": {
+      "title": "Stay Updated",
+      "description": "Get the latest resources and insights delivered to your inbox.",
+      "placeholder": "Enter your email",
+      "subscribe": "Subscribe",
+      "subscribers": "Join 100,000+ professionals receiving our newsletter"
+    },
+    "additional": {
+      "title": "Additional Resources",
+      "blog": "Blog",
+      "podcasts": "Podcasts",
+      "webinars": "Webinars",
+      "community": "Community Forum"
+    }
+  },
+  "faculty": {
+    "title": "World-Class Faculty",
+    "subtitle": "Learn from the Best",
+    "description": "Our faculty comprises distinguished scholars, thought leaders, and practitioners who bring academic excellence and real-world experience.",
+    "stats": {
+      "faculty": "World-Class Faculty",
+      "countries": "Global Diversity",
+      "languages": "Languages Taught",
+      "awards": "Academic Awards"
+    },
+    "featured": "Featured Faculty",
+    "departments": {
+      "title": "Academic Departments",
+      "philosophy": {
+        "name": "Philosophy Department",
+        "faculty": "12 Faculty"
+      },
+      "history": {
+        "name": "History Department",
+        "faculty": "15 Faculty"
+      },
+      "literature": {
+        "name": "Literature Department",
+        "faculty": "18 Faculty"
+      },
+      "arts": {
+        "name": "Arts & Cultural Studies",
+        "faculty": "10 Faculty"
+      }
+    },
+    "excellence": {
+      "title": "Faculty Excellence Standards",
+      "academic": "Academic Excellence",
+      "teaching": "Teaching Passion",
+      "vision": "AI-Era Vision",
+      "global": "Global Perspective"
+    },
+    "join": {
+      "title": "Join Our Distinguished Faculty",
+      "description": "Make an impact on students worldwide and shape the future of education in the AI era.",
+      "opportunities": "Faculty Opportunities",
+      "viewCourses": "View Our Courses"
+    }
+  }
+}

@@ -1,0 +1,596 @@
+{
+  "common": {
+    "siteName": "HumanEdge Academy",
+    "tagline": "AI 시대, 인간의 가치를 높이다",
+    "login": "로그인",
+    "register": "시작하기",
+    "logout": "로그아웃",
+    "dashboard": "대시보드",
+    "courses": "강의",
+    "pricing": "가격",
+    "about": "소개",
+    "contact": "문의",
+    "language": "언어",
+    "search": "검색",
+    "profile": "프로필",
+    "settings": "설정",
+    "welcome": "환영합니다",
+    "loading": "로딩 중...",
+    "error": "오류",
+    "success": "성공",
+    "cancel": "취소",
+    "save": "저장",
+    "edit": "편집",
+    "delete": "삭제",
+    "confirm": "확인",
+    "back": "뒤로",
+    "next": "다음",
+    "previous": "이전",
+    "viewAll": "모두 보기",
+    "learnMore": "자세히 알아보기",
+    "getStarted": "여정 시작하기",
+    "koreaLaunch": "2025년 8월 한국 출시"
+  },
+  "navigation": {
+    "home": "홈",
+    "courses": "강의",
+    "pricing": "가격",
+    "forBusiness": "기업용",
+    "partners": "파트너",
+    "resources": "자료실",
+    "about": "소개",
+    "blog": "블로그",
+    "support": "지원"
+  },
+  "homepage": {
+    "hero": {
+      "title": "인문학으로 미래를 준비하세요",
+      "subtitle": "AI가 일자리 시장을 변화시키는 시대, 기계가 대체할 수 없는 인간 고유의 능력을 개발하세요. 20개국 50만 명 이상의 학습자와 함께하세요.",
+      "cta": "무료 체험 시작",
+      "secondaryCta": "강의 둘러보기",
+      "stats": {
+        "students": "활성 학습자",
+        "countries": "진출 국가",
+        "courses": "전문가 강의",
+        "completion": "경력 전환 성공률"
+      },
+      "announcement": {
+        "badge": "새소식",
+        "text": "한국 출시 - 2025년 8월",
+        "link": "한국 파트너십에 대해 알아보기"
+      }
+    },
+    "mission": {
+      "title": "왜 휴먼엣지 아카데미인가?",
+      "subtitle": "AI가 모든 산업을 재편하는 시대, 대체 불가능한 인간의 기술을 개발하도록 돕습니다",
+      "points": [
+        {
+          "title": "AI가 대체할 수 없는 기술",
+          "description": "비판적 사고, 창의성, 감성 지능 등 AI가 복제할 수 없는 능력을 마스터하세요"
+        },
+        {
+          "title": "경력 전환 지원",
+          "description": "AI 중심 직장 변화에 적응하는 전문가를 위한 안내 경로"
+        },
+        {
+          "title": "글로벌 인증",
+          "description": "20개국 이상의 고용주가 인정하는 수료증"
+        },
+        {
+          "title": "유연한 학습",
+          "description": "직장인을 위해 설계된 자기 주도 학습 과정"
+        }
+      ]
+    },
+    "globalPresence": {
+      "title": "전 세계가 신뢰하는",
+      "subtitle": "20개국에서 현지 파트너십으로 운영",
+      "countries": "미국, 영국, 독일, 프랑스, 스페인, 이탈리아, 네덜란드, 스웨덴, 브라질, 칠레, 멕시코, 태국, 싱가포르, 일본, 호주, 인도, 캐나다, 폴란드, 포르투갈, 터키",
+      "koreaInfo": {
+        "title": "한국 출시",
+        "description": "2025년 8월, 한국의 선도적인 교육 기업과의 독점 파트너십을 통해 한국 진출을 발표하게 되어 기쁩니다.",
+        "features": [
+          "한국어 지원 곧 제공",
+          "현지화된 결제 방법",
+          "현지 고객 지원",
+          "한국 대학과의 파트너십"
+        ]
+      }
+    },
+    "features": {
+      "title": "플랫폼 특징",
+      "subtitle": "성공적인 경력 전환을 위한 모든 것",
+      "feature1": {
+        "title": "전문가 강사진",
+        "description": "선도적인 철학자, 역사학자, 인문학 학자들로부터 배우세요"
+      },
+      "feature2": {
+        "title": "인터랙티브 학습",
+        "description": "라이브 토론, 동료 평가, 실습 프로젝트에 참여하세요"
+      },
+      "feature3": {
+        "title": "경력 가이드",
+        "description": "AI 시대 경력 전환을 위한 맞춤형 코칭"
+      },
+      "feature4": {
+        "title": "평생 액세스",
+        "description": "한 번 등록하면 무료 업데이트와 함께 평생 강의에 액세스"
+      }
+    },
+    "programs": {
+      "title": "미래를 위한 인문학",
+      "subtitle": "AI와 경쟁하지 않고 보완하는 기술 개발",
+      "philosophy": "비판적 사고 & 윤리",
+      "history": "패턴 인식 & 맥락",
+      "literature": "소통 & 스토리텔링",
+      "psychology": "감성 지능",
+      "culturalStudies": "글로벌 관점",
+      "creativity": "혁신 & 디자인 사고",
+      "artHistory": "미술사 & 시각 문화",
+      "linguistics": "언어 & 커뮤니케이션"
+    },
+    "testimonials": {
+      "title": "성공 사례",
+      "subtitle": "우리 학습자들이 어떻게 성공적으로 경력을 전환했는지"
+    },
+    "pricing": {
+      "title": "간단하고 투명한 가격",
+      "subtitle": "학습 여정에 맞는 플랜을 선택하세요",
+      "monthly": "월간",
+      "annual": "연간 (20% 할인)",
+      "currency": "USD"
+    }
+  },
+  "pricing": {
+    "title": "당신의 미래에 투자하세요",
+    "subtitle": "AI 주도 경제를 준비하는 50만 명 이상의 학습자와 함께하세요",
+    "plans": {
+      "starter": {
+        "name": "스타터",
+        "price": "$29",
+        "period": "/월",
+        "description": "인문학 탐색에 완벽",
+        "features": [
+          "50개 이상의 강의 액세스",
+          "기본 수료증",
+          "커뮤니티 포럼 액세스",
+          "모바일 앱 액세스"
+        ]
+      },
+      "professional": {
+        "name": "프로페셔널",
+        "price": "$79",
+        "period": "/월",
+        "description": "진지한 경력 전환자를 위해",
+        "badge": "가장 인기",
+        "features": [
+          "200개 이상의 모든 강의 액세스",
+          "전문 수료증",
+          "1대1 경력 코칭 (월간)",
+          "우선 지원",
+          "다운로드 가능한 자료",
+          "라이브 웨비나"
+        ]
+      },
+      "enterprise": {
+        "name": "엔터프라이즈",
+        "price": "맞춤형",
+        "period": "",
+        "description": "팀과 조직을 위해",
+        "features": [
+          "맞춤형 강의 큐레이션",
+          "팀 관리 대시보드",
+          "전담 성공 매니저",
+          "맞춤형 수료증",
+          "API 액세스",
+          "인보이스 결제"
+        ]
+      }
+    },
+    "payment": {
+      "secure": "안전한 결제",
+      "methods": ["PayPal", "Stripe", "신용카드"],
+      "guarantee": "30일 환불 보장"
+    }
+  },
+  "courses": {
+    "title": "강의 카탈로그",
+    "subtitle": "AI 시대를 위한 고유한 인간 기술 개발",
+    "filters": {
+      "all": "모든 강의",
+      "level": "레벨",
+      "category": "카테고리",
+      "duration": "기간",
+      "language": "언어",
+      "beginner": "초급",
+      "intermediate": "중급",
+      "advanced": "고급",
+      "title": "필터"
+    },
+    "search": "강의 검색...",
+    "resultsCount": "{{count}}개의 강의를 찾았습니다",
+    "noCourses": "조건에 맞는 강의를 찾을 수 없습니다.",
+    "tryAdjusting": "필터나 검색어를 조정해보세요.",
+    "categories": {
+      "all": "모든 카테고리",
+      "philosophy": "철학",
+      "history": "역사",
+      "literature": "문학",
+      "artHistory": "미술사",
+      "culturalStudies": "문화 연구",
+      "linguistics": "언어학",
+      "religion": "종교",
+      "classics": "고전",
+      "criticalThinking": "비판적 사고",
+      "ethics": "AI 윤리 & 철학",
+      "creativity": "창의적 문제 해결",
+      "communication": "고급 커뮤니케이션",
+      "leadership": "인간 중심 리더십",
+      "culturalIntelligence": "문화 지능",
+      "emotionalIntelligence": "감성 지능",
+      "systemsThinking": "시스템 사고"
+    },
+    "card": {
+      "enroll": "지금 등록",
+      "viewDetails": "상세 보기",
+      "preview": "미리보기",
+      "instructor": "강사",
+      "weeks": "주",
+      "lessons": "강의",
+      "students": "수강생",
+      "rating": "평점",
+      "beginner": "초급",
+      "intermediate": "중급",
+      "advanced": "고급",
+      "level": "레벨",
+      "duration": "기간",
+      "enrollmentAlert": {
+        "title": "회원가입 필요",
+        "description": "이 강의에 등록하려면 계정을 만들거나 로그인하세요.",
+        "signUp": "회원가입",
+        "signIn": "로그인",
+        "cancel": "취소"
+      }
+    }
+  },
+  "ceo": {
+    "name": "Dr. James Kim",
+    "title": "설립자 & CEO",
+    "subtitle": "스탠포드 대학교 철학 교수 | AI 윤리 연구자",
+    "greeting": "친애하는 글로벌 시민 여러분,",
+    "message": {
+      "intro": "AI 시스템이 코드를 작성하고, 데이터를 분석하고, 심지어 예술을 창작하는 것을 목격했을 때, 저는 우리가 교육에 대해 거꾸로 접근하고 있다는 것을 깨달았습니다. 모두가 AI가 곧 자동화할 기술적 능력을 가르치는 데 급급할 때, 우리는 다른 질문을 했습니다: 무엇이 우리를 대체 불가능한 인간으로 만드는가?",
+      "philosophy": "그 답은 인류의 가장 오래된 보물로 우리를 이끌었습니다: 철학은 우리에게 질문하고 추론하는 법을 가르칩니다. 역사는 우리의 집단적 과거에서 패턴과 지혜를 보여줍니다. 문학은 공감과 감성 지능을 개발합니다. 미술사는 미적 판단과 문화적 이해를 기릅니다. 이것들은 단순한 과목이 아닙니다 - 어떤 알고리즘도 복제할 수 없는 인간 의식의 기초입니다.",
+      "mission": "IEACN은 단순한 온라인 교육 플랫폼이 아닙니다. 우리는 글로벌 르네상스를 구축하고 있습니다. 우리의 고대 철학 강의는 단순히 소크라테스를 가르치는 것이 아니라 AI의 결정을 평가하는 데 도움이 되는 비판적 사고를 개발합니다. 우리의 셰익스피어 연구는 단순히 연극을 분석하는 것이 아니라 디지털 세계에서 인간 연결에 필수적인 스토리텔링 기술을 구축합니다. 우리의 미술사 강의는 단순히 그림을 보여주는 것이 아니라 AI 도구를 의미 있게 안내하는 데 필요한 창의적 비전을 훈련시킵니다.",
+      "globalVision": "20개국에 걸친 우리의 다국적 네트워크를 통해, 우리는 새로운 경제를 창출하고 있습니다 - 방콕의 철학 졸업생이 실리콘밸리에 컨설팅을 할 수 있고, 상파울루의 문학 전문가가 글로벌 AI 윤리를 형성할 수 있고, 카이로의 미술사학자가 창의적인 AI 프로젝트를 이끌 수 있는 경제입니다. 우리는 단순히 일자리를 창출하는 것이 아니라 새로운 전문가 범주를 만들고 있습니다: 휴먼 인텔리전스 스페셜리스트.",
+      "personalNote": "우리의 비전은 대담합니다: 2030년까지 IEACN은 전 세계적으로 1,000만 명의 휴먼 인텔리전스 스페셜리스트를 교육하여 AI 시대를 이끌 준비가 된 인문학 훈련을 받은 전문가의 최대 네트워크를 만들 것입니다. 우리는 이 교육을 접근 가능하게 만들기 위해 정부와 파트너십을 맺고, 이러한 새로운 역할을 창출하기 위해 기업과 협력하며, 어떤 국가도 뒤처지지 않도록 국제기구와 협력하고 있습니다.",
+      "closing": "인류의 고유한 선물을 되찾는 데 동참하세요. 인공지능의 세계에서 인간의 지혜는 구식이 아니라 귀중한 것입니다.",
+      "signature": "AI 시대, 인간의 지혜는 더욱 빛납니다."
+    },
+    "bio": {
+      "education": "스탠포드 대학교 철학 박사, MIT AI 연구소 연구원",
+      "experience": "AI 연구 및 인문학 교육 20년 이상",
+      "achievement": "AI 윤리 및 인간 중심 기술의 선구자",
+      "publication": "'기계 속의 영혼' (2023) 저자",
+      "research": "교차 문화 AI 윤리의 선도적 연구자"
+    },
+    "quote": "기계가 계산할 때, 인간은 숙고해야 합니다.",
+    "book": {
+      "title": "기계 속의 영혼",
+      "subtitle": "AI 시대에 인간의 목적 찾기",
+      "description": "인류가 인공지능과 함께 번영할 수 있는 방법에 대한 획기적인 탐구"
+    },
+    "globalExperiment": {
+      "title": "글로벌 학습 실험",
+      "description": "우리는 전 세계 지역 커뮤니티와 협력하여 다양한 문화가 AI와 인간 개발에 어떻게 접근하는지 이해하고 있습니다",
+      "timeline": {
+        "korea": "한국 - 2025년 8월",
+        "japan": "일본 - 2025년 9월",
+        "brazil": "브라질 - 2025년 10월",
+        "india": "인도 - 2025년 11월"
+      }
+    }
+  },
+  "footer": {
+    "about": {
+      "title": "소개",
+      "mission": "우리의 사명",
+      "vision": "우리의 비전",
+      "values": "우리의 가치",
+      "leadership": "리더십 팀",
+      "careers": "채용",
+      "press": "언론",
+      "partners": "파트너"
+    },
+    "academics": {
+      "title": "학술",
+      "programs": "프로그램",
+      "courses": "강의 둘러보기",
+      "faculty": "교수진",
+      "research": "연구"
+    },
+    "learn": {
+      "title": "학습",
+      "courses": "강의 둘러보기",
+      "programs": "인증 프로그램",
+      "enterprise": "기업용",
+      "educators": "교육자용"
+    },
+    "support": {
+      "title": "지원",
+      "help": "도움말 센터",
+      "contact": "문의하기",
+      "faq": "자주 묻는 질문",
+      "technical": "기술 지원",
+      "systemStatus": "시스템 상태"
+    },
+    "legal": {
+      "title": "법적 사항",
+      "privacy": "개인정보 처리방침",
+      "terms": "이용약관",
+      "cookies": "쿠키 정책",
+      "accessibility": "접근성"
+    },
+    "social": {
+      "title": "연결",
+      "followUs": "팔로우하기"
+    },
+    "copyright": "© 2025 HumanEdge Academy. 모든 권리 보유.",
+    "koreaNotice": "한국어 지원 2025년 8월 출시"
+  },
+  "programs": {
+    "title": "프로그램",
+    "subtitle": "AI 시대를 위한 체계적인 인문학 교육 프로그램",
+    "redirecting": "강의 페이지로 이동 중...",
+    "types": {
+      "foundation": {
+        "title": "기초 과정",
+        "description": "AI 시대를 위한 필수 인문학 기술"
+      },
+      "certificate": {
+        "title": "전문 자격증",
+        "description": "고용주가 인정하는 경력 중심 자격증"
+      },
+      "specialization": {
+        "title": "전문화 프로그램",
+        "description": "특정 인문학 분야의 심층 전문 지식"
+      },
+      "partnership": {
+        "title": "글로벌 파트너십",
+        "description": "대학 학점 및 학위 경로 프로그램"
+      }
+    },
+    "featured": {
+      "title": "추천 프로그램",
+      "foundation": "기초",
+      "certificate": "자격증",
+      "specialization": "전문화"
+    },
+    "stats": {
+      "activeStudents": "활성 학생",
+      "jobPlacement": "취업 성공률",
+      "partnerUniversities": "파트너 대학",
+      "countries": "운영 국가"
+    },
+    "duration": "기간",
+    "students": "학생",
+    "explore": "프로그램 탐색"
+  },
+  "faq": {
+    "title": "자주 묻는 질문",
+    "subtitle": "어떻게 도와드릴까요?",
+    "description": "HumanEdge Academy는 AI 시대에 전문가들이 번창하도록 돕기 위해 최선을 다하고 있습니다. 아래에서 일반적인 질문에 대한 답변을 찾아보세요.",
+    "search": "답변 검색...",
+    "categories": {
+      "courses": "강의 & 학습",
+      "pricing": "가격 & 결제",
+      "account": "계정 & 프로필",
+      "certificates": "수료증 & 학점",
+      "technical": "기술 지원",
+      "global": "글로벌 프로그램"
+    },
+    "noResults": "검색 결과가 없습니다",
+    "tryAdjusting": "검색어를 조정하거나 위의 카테고리를 둘러보세요.",
+    "clearSearch": "검색 지우기",
+    "searchResults": "검색 결과",
+    "allQuestions": "모든 질문",
+    "stillNeedHelp": "여전히 도움이 필요하신가요?",
+    "cantFind": "찾고 있는 내용을 찾을 수 없나요? 지원팀이 24시간 내에 도와드리겠습니다.",
+    "contactSupport": "지원팀 문의",
+    "helpCenter": "도움말 센터"
+  },
+  "contact": {
+    "title": "HumanEdge Academy 문의",
+    "subtitle": "연락하기",
+    "description": "질문이 있거나 도움이 필요하거나 파트너십 기회를 탐색하고 싶으신가요? 저희가 도와드리겠습니다. 가장 편리한 방법을 선택하세요.",
+    "form": {
+      "title": "메시지 보내기",
+      "description": "아래 양식을 작성해 주시면 24시간 이내에 답변 드리겠습니다.",
+      "firstName": "이름",
+      "lastName": "성",
+      "email": "이메일",
+      "phone": "전화번호 (선택사항)",
+      "subject": "제목",
+      "subjectPlaceholder": "문의 주제를 선택하세요",
+      "message": "메시지",
+      "messagePlaceholder": "메시지를 입력하세요...",
+      "send": "메시지 보내기"
+    },
+    "methods": {
+      "email": {
+        "title": "이메일 지원",
+        "address": "support@humanedge.academy",
+        "description": "24시간 내 답변"
+      },
+      "phone": {
+        "title": "전화 지원",
+        "number": "+1 (555) 123-4567",
+        "hours": "월-금 오전 9시-오후 6시 (EST)"
+      },
+      "headquarters": {
+        "title": "본사",
+        "address": "100 Global Education Blvd",
+        "city": "New York, NY 10001",
+        "country": "United States"
+      },
+      "local": {
+        "title": "현지 지원",
+        "description": "전 세계 현지 지원"
+      }
+    },
+    "departments": {
+      "title": "부서별 문의",
+      "academic": {
+        "title": "학술 지원",
+        "email": "academic@humanedge.academy",
+        "description": "강의 내용, 과제, 학술 가이드"
+      },
+      "technical": {
+        "title": "기술 지원",
+        "email": "tech@humanedge.academy",
+        "description": "플랫폼 문제, 계정 액세스, 기술 도움말"
+      },
+      "billing": {
+        "title": "청구 & 결제",
+        "email": "billing@humanedge.academy",
+        "description": "결제, 환불, 구독 관리"
+      },
+      "partnership": {
+        "title": "파트너십",
+        "email": "partners@humanedge.academy",
+        "description": "기업, 대학, 정부 파트너십"
+      }
+    },
+    "quickHelp": {
+      "title": "빠른 답변이 필요하신가요?",
+      "description": "일반적인 주제에 대한 즉각적인 도움을 위해 리소스를 확인하세요.",
+      "faq": "FAQ 보기",
+      "guide": "시작 가이드",
+      "support": "지원 센터",
+      "community": "커뮤니티 포럼"
+    }
+  },
+  "partners": {
+    "title": "20개국에서 운영 중",
+    "subtitle": "글로벌 파트너십 네트워크",
+    "description": "우리는 대학, 기업, 정부와 협력하여 전 세계 전문가들에게 변혁적인 인문학 교육을 제공합니다.",
+    "types": {
+      "university": {
+        "title": "대학 파트너",
+        "count": "45+",
+        "description": "학점 인정 및 학위 경로를 위한 선도 대학"
+      },
+      "corporate": {
+        "title": "기업 파트너",
+        "count": "120+",
+        "description": "직원 교육 및 인재 개발 프로그램"
+      },
+      "government": {
+        "title": "정부 파트너",
+        "count": "15+",
+        "description": "국가 교육 이니셔티브 및 공공 부문 교육"
+      },
+      "certification": {
+        "title": "인증 기관",
+        "count": "25+",
+        "description": "전문 인증 및 자격 표준"
+      }
+    },
+    "presence": {
+      "title": "글로벌 현황",
+      "new": "신규",
+      "countries": "운영 국가"
+    },
+    "benefits": {
+      "title": "파트너십 혜택",
+      "academic": "학술 우수성",
+      "global": "글로벌 도달",
+      "innovation": "혁신 리더십",
+      "support": "전담 지원"
+    },
+    "cta": {
+      "title": "파트너가 되어주세요",
+      "description": "인문학 교육의 미래를 함께 만들어갑시다. AI 시대를 위한 인재를 준비시키는 일에 동참하세요.",
+      "contact": "파트너십팀 문의",
+      "download": "파트너십 가이드 다운로드"
+    },
+    "testimonials": {
+      "title": "파트너십 성공 사례"
+    }
+  },
+  "resources": {
+    "title": "무료 학습 자료",
+    "subtitle": "자료 & 학습 교재",
+    "description": "AI 시대에 성공하는 데 도움이 되는 가이드, 기사, 도구 및 템플릿의 포괄적인 컬렉션을 탐색하세요.",
+    "search": "자료 검색...",
+    "categories": {
+      "all": "모든 자료",
+      "guides": "가이드",
+      "videos": "비디오",
+      "articles": "기사",
+      "tools": "도구",
+      "research": "연구"
+    },
+    "featured": "추천 자료",
+    "view": "보기",
+    "viewResource": "자료 보기",
+    "newsletter": {
+      "title": "최신 정보 받기",
+      "description": "최신 자료와 통찰력을 받아보세요.",
+      "placeholder": "이메일을 입력하세요",
+      "subscribe": "구독",
+      "subscribers": "10만 명 이상의 전문가가 뉴스레터를 받고 있습니다"
+    },
+    "additional": {
+      "title": "추가 자료",
+      "blog": "블로그",
+      "podcasts": "팟캐스트",
+      "webinars": "웨비나",
+      "community": "커뮤니티 포럼"
+    }
+  },
+  "faculty": {
+    "title": "세계적 수준의 교수진",
+    "subtitle": "최고로부터 배우세요",
+    "description": "우리 교수진은 학문적 우수성과 실제 경험을 결합한 저명한 학자, 사상가 및 실무자로 구성되어 있습니다.",
+    "stats": {
+      "faculty": "세계적 수준의 교수진",
+      "countries": "글로벌 다양성",
+      "languages": "지원 언어",
+      "awards": "학술상"
+    },
+    "featured": "주요 교수진",
+    "departments": {
+      "title": "학과",
+      "philosophy": {
+        "name": "철학과",
+        "faculty": "12명의 교수진"
+      },
+      "history": {
+        "name": "역사학과",
+        "faculty": "15명의 교수진"
+      },
+      "literature": {
+        "name": "문학과",
+        "faculty": "18명의 교수진"
+      },
+      "arts": {
+        "name": "예술 & 문화학과",
+        "faculty": "10명의 교수진"
+      }
+    },
+    "excellence": {
+      "title": "교수진 우수성 기준",
+      "academic": "학술적 우수성",
+      "teaching": "교육 열정",
+      "vision": "AI 시대 비전",
+      "global": "글로벌 관점"
+    },
+    "join": {
+      "title": "우리의 저명한 교수진에 합류하세요",
+      "description": "전 세계 학생들에게 영향을 미치고 AI 시대 교육의 미래를 형성하세요.",
+      "opportunities": "교수진 기회",
+      "viewCourses": "강의 보기"
+    }
+  }
+}
