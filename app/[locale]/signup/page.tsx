@@ -202,22 +202,6 @@ export default function SignupPage() {
                     )}
                   </div>
 
-                  {/* Notice Box */}
-                  <div className="bg-amber-50 dark:bg-amber-950/20 border border-amber-200 dark:border-amber-800 rounded-lg p-4">
-                    <div className="flex gap-3">
-                      <AlertCircle className="h-5 w-5 text-amber-600 dark:text-amber-400 shrink-0 mt-0.5" />
-                      <div className="space-y-1">
-                        <p className="text-sm font-medium text-amber-900 dark:text-amber-100">
-                          Limited Access Period
-                        </p>
-                        <p className="text-xs text-amber-700 dark:text-amber-300">
-                          HumanEdge Academy is currently in beta testing. Public registration will open in August 2025.
-                          If you're interested in early access, please contact our partnership team.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-
                   {/* Account Type */}
                   <div className="space-y-3">
                     <Label>Account Type</Label>

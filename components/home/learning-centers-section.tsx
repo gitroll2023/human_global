@@ -20,66 +20,22 @@ export function LearningCentersSection() {
       flag: '🇰🇷',
       centers: [
         {
-          city: 'Incheon',
-          name: 'HumanEdge Korea Headquarters',
-          address: 'Incheon',
+          city: 'Test Program',
+          name: 'Korea Offline Test Program - 5 Cities',
+          address: 'Incheon, Seoul, Suwon, Daejeon, Gwangju',
           established: 'August 2025',
-          students: '800+',
-          programs: ['Philosophy', 'History', 'Literature', 'Cultural Studies'],
-          rating: 4.9,
-          reviews: 156,
+          students: 'Tester Recruitment',
+          programs: ['Philosophy', 'History', 'Literature', 'Cultural Studies', 'Ethics'],
+          rating: 0,
+          reviews: 0,
           upcoming: true,
-          highlight: 'Priority Launch',
+          highlight: 'Beta Testing',
           testimonial: {
-            name: 'James Park',
-            role: 'Early Registrant',
-            text: 'The Seoul campus will serve as the flagship center for East Asia. The preview sessions showed world-class facilities and exceptional faculty.',
-            date: 'Expected August 2025'
+            name: 'HumanEdge Korea',
+            role: 'Official Announcement',
+            text: 'We are excited to announce the beta testing program for our offline centers in 5 Korean cities starting August 2025. Join us as an early tester to shape the future of humanities education in Korea.',
+            date: 'Recruiting Now'
           }
-        },
-        {
-          city: 'Seoul',
-          name: 'HumanEdge Seoul Campus',
-          address: 'Seoul',
-          established: 'September 2025',
-          students: '450+',
-          programs: ['Global Studies', 'Philosophy', 'Ethics'],
-          rating: 4.8,
-          reviews: 89,
-          upcoming: true
-        },
-        {
-          city: 'Suwon',
-          name: 'HumanEdge Suwon Tech Hub',
-          address: 'Suwon',
-          established: 'October 2025',
-          students: '350+',
-          programs: ['Ethics in Technology', 'Philosophy', 'History'],
-          rating: 4.8,
-          reviews: 67,
-          upcoming: true
-        },
-        {
-          city: 'Daejeon',
-          name: 'HumanEdge Daejeon Science Center',
-          address: 'Daejeon',
-          established: 'November 2025',
-          students: '300+',
-          programs: ['Philosophy of Science', 'Ethics', 'Literature'],
-          rating: 4.7,
-          reviews: 45,
-          upcoming: true
-        },
-        {
-          city: 'Gwangju',
-          name: 'HumanEdge Gwangju Arts Hub',
-          address: 'Gwangju',
-          established: 'December 2025',
-          students: '250+',
-          programs: ['Art History', 'Cultural Studies', 'Literature'],
-          rating: 4.7,
-          reviews: 38,
-          upcoming: true
         }
       ]
     },
@@ -135,7 +91,7 @@ export function LearningCentersSection() {
         {
           city: 'Frankfurt',
           name: 'HumanEdge Germany Headquarters',
-          address: 'Frankfurt',
+          address: 'Taunusanlage 11, 60329 Frankfurt am Main',
           established: '2023',
           students: '700+',
           programs: ['Philosophy', 'History', 'Art History'],
@@ -152,7 +108,7 @@ export function LearningCentersSection() {
         {
           city: 'Munich',
           name: 'HumanEdge Munich Center',
-          address: 'Munich',
+          address: 'Maximilianstrasse 35a, 80539 Munich',
           established: '2024',
           students: '400+',
           programs: ['Literature', 'Cultural Studies'],
@@ -169,7 +125,7 @@ export function LearningCentersSection() {
         {
           city: 'Singapore',
           name: 'HumanEdge Asia Pacific Hub',
-          address: 'Singapore',
+          address: '1 Raffles Place, Tower One, Singapore 048616',
           established: '2023',
           students: '900+',
           programs: ['All Programs'],
@@ -182,108 +138,6 @@ export function LearningCentersSection() {
             text: 'The Singapore hub serves as a melting pot of Asian and Western perspectives. The offline workshops here are truly transformative.',
             date: 'Class of 2024'
           }
-        }
-      ]
-    },
-    {
-      country: 'Japan',
-      flag: '🇯🇵',
-      centers: [
-        {
-          city: 'Narita',
-          name: 'HumanEdge Japan Headquarters',
-          address: 'Narita',
-          established: 'September 2025',
-          students: '400+',
-          programs: ['Philosophy', 'Art History', 'Literature'],
-          rating: 4.9,
-          reviews: 0,
-          upcoming: true,
-          testimonial: {
-            name: 'Ken Yamamoto',
-            role: 'Early Registrant',
-            text: 'Excited to join the Tokyo campus. The preview sessions showed impressive integration of Eastern and Western philosophical traditions.',
-            date: 'Preview 2024'
-          }
-        },
-        {
-          city: 'Tokyo',
-          name: 'HumanEdge Tokyo Center',
-          address: 'Tokyo',
-          established: 'October 2025',
-          students: '250+',
-          programs: ['Cultural Studies', 'History'],
-          rating: 4.8,
-          reviews: 0,
-          upcoming: true
-        }
-      ]
-    },
-    {
-      country: 'India',
-      flag: '🇮🇳',
-      centers: [
-        {
-          city: 'Mumbai',
-          name: 'HumanEdge India Headquarters',
-          address: 'Mumbai',
-          established: 'November 2025',
-          students: '600+',
-          programs: ['Philosophy', 'Literature', 'Cultural Studies'],
-          rating: 4.8,
-          reviews: 0,
-          upcoming: true,
-          testimonial: {
-            name: 'Priya Sharma',
-            role: 'Beta Tester',
-            text: 'The blend of ancient Indian philosophy with modern humanities education will be groundbreaking for South Asian professionals.',
-            date: 'Beta Program 2024'
-          }
-        },
-        {
-          city: 'Bangalore',
-          name: 'HumanEdge Bangalore Tech Center',
-          address: 'Bangalore',
-          established: 'December 2025',
-          students: '450+',
-          programs: ['Ethics', 'Philosophy', 'History'],
-          rating: 4.9,
-          reviews: 0,
-          upcoming: true
-        }
-      ]
-    },
-    {
-      country: 'Brazil',
-      flag: '🇧🇷',
-      centers: [
-        {
-          city: 'Guarulhos',
-          name: 'HumanEdge Brazil Headquarters',
-          address: 'Guarulhos',
-          established: 'October 2025',
-          students: '350+',
-          programs: ['Literature', 'Cultural Studies', 'Philosophy'],
-          rating: 4.8,
-          reviews: 0,
-          upcoming: true,
-          testimonial: {
-            name: 'Carlos Mendez',
-            role: 'Early Adopter',
-            text: 'Finally, world-class humanities education in Portuguese. This will transform professional development in Latin America.',
-            date: 'Preview Session 2024'
-          }
-        },
-        {
-          city: 'São Paulo',
-          name: 'HumanEdge São Paulo Center',
-          address: 'São Paulo',
-          established: 'November 2025',
-          students: '200+',
-          programs: ['Art History', 'Cultural Studies'],
-          rating: 4.7,
-          reviews: 0,
-          upcoming: true
         }
       ]
     }
@@ -313,14 +167,6 @@ export function LearningCentersSection() {
       rating: 5,
       text: 'The quarterly workshops in Singapore brought together students from across Asia. The cultural exchange enriched our literary discussions immensely.',
       date: 'August 2024'
-    },
-    {
-      name: 'David Kim',
-      location: 'Seoul, Korea',
-      program: 'Ethics Bootcamp',
-      rating: 5,
-      text: 'Excited to join the Seoul campus when it opens! The preview sessions were incredibly promising.',
-      date: 'Preview Session 2024'
     }
   ];
 
@@ -347,21 +193,21 @@ export function LearningCentersSection() {
           <Card>
             <CardContent className="p-6 text-center">
               <Building className="w-8 h-8 mx-auto mb-2 text-primary" />
-              <div className="text-2xl font-bold">15+</div>
+              <div className="text-2xl font-bold">6</div>
               <div className="text-sm text-muted-foreground">Learning Centers</div>
             </CardContent>
           </Card>
           <Card>
             <CardContent className="p-6 text-center">
               <Globe className="w-8 h-8 mx-auto mb-2 text-primary" />
-              <div className="text-2xl font-bold">4</div>
+              <div className="text-2xl font-bold">3</div>
               <div className="text-sm text-muted-foreground">Countries</div>
             </CardContent>
           </Card>
           <Card>
             <CardContent className="p-6 text-center">
               <Users className="w-8 h-8 mx-auto mb-2 text-primary" />
-              <div className="text-2xl font-bold">8,500+</div>
+              <div className="text-2xl font-bold">4,800+</div>
               <div className="text-sm text-muted-foreground">Offline Students</div>
             </CardContent>
           </Card>
@@ -382,8 +228,8 @@ export function LearningCentersSection() {
                 <span className="text-3xl">{countryData.flag}</span>
                 <h3 className="text-2xl font-bold">{countryData.country}</h3>
                 {countryData.country === 'South Korea' && (
-                  <Badge className="bg-gradient-to-r from-orange-500 to-red-500 text-white">
-                    Launching August 2025
+                  <Badge className="bg-gradient-to-r from-blue-500 to-purple-500 text-white">
+                    Beta Testing - August 2025
                   </Badge>
                 )}
               </div>
@@ -410,16 +256,18 @@ export function LearningCentersSection() {
                         </div>
                         <div className="flex items-center gap-2 text-sm">
                           <Users className="w-4 h-4 text-muted-foreground" />
-                          <span>{center.students} students</span>
+                          <span>{center.students === 'Tester Recruitment' ? 'Recruiting Beta Testers' : `${center.students} students`}</span>
                         </div>
                         <div className="flex items-center gap-2 text-sm">
                           <Calendar className="w-4 h-4 text-muted-foreground" />
-                          <span>Est. {center.established}</span>
+                          <span>{center.students === 'Tester Recruitment' ? 'Beta Test Starts' : 'Est.'} {center.established}</span>
                         </div>
-                        <div className="flex items-center gap-2 text-sm">
-                          <Star className="w-4 h-4 text-yellow-500" />
-                          <span>{center.rating}/5 ({center.reviews} reviews)</span>
-                        </div>
+                        {center.reviews > 0 && (
+                          <div className="flex items-center gap-2 text-sm">
+                            <Star className="w-4 h-4 text-yellow-500" />
+                            <span>{center.rating}/5 ({center.reviews} reviews)</span>
+                          </div>
+                        )}
                         
                         <div className="pt-2">
                           <p className="text-xs text-muted-foreground mb-2">Available Programs:</p>

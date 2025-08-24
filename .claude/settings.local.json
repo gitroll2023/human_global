@@ -4,7 +4,9 @@
       "mcp__sequential-thinking__sequentialthinking",
       "Bash(npm run build:*)",
       "Bash(grep:*)",
-      "Bash(git remote add:*)"
+      "Bash(git remote add:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)"
     ],
     "deny": [],
     "ask": []

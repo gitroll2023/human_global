@@ -549,7 +549,7 @@ export default function PartnerApplyPage() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               <div className="flex items-center gap-2">
                 <Building className="w-4 h-4 text-muted-foreground" />
-                <span className="text-sm">partnerships@humanedge.academy</span>
+                <span className="text-sm">partnerships@humanedgeacademy.cloud</span>
               </div>
               <div className="flex items-center gap-2">
                 <MapPin className="w-4 h-4 text-muted-foreground" />

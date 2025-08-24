@@ -419,12 +419,12 @@
     "methods": {
       "email": {
         "title": "이메일 지원",
-        "address": "support@humanedge.academy",
+        "address": "support@humanedgeacademy.cloud",
         "description": "24시간 내 답변"
       },
       "phone": {
         "title": "전화 지원",
-        "number": "+1 (555) 123-4567",
+        "number": "+1 (555) 231-1511",
         "hours": "월-금 오전 9시-오후 6시 (EST)"
       },
       "headquarters": {
@@ -442,22 +442,22 @@
       "title": "부서별 문의",
       "academic": {
         "title": "학술 지원",
-        "email": "academic@humanedge.academy",
+        "email": "academic@humanedgeacademy.cloud",
         "description": "강의 내용, 과제, 학술 가이드"
       },
       "technical": {
         "title": "기술 지원",
-        "email": "tech@humanedge.academy",
+        "email": "tech@humanedgeacademy.cloud",
         "description": "플랫폼 문제, 계정 액세스, 기술 도움말"
       },
       "billing": {
         "title": "청구 & 결제",
-        "email": "billing@humanedge.academy",
+        "email": "billing@humanedgeacademy.cloud",
         "description": "결제, 환불, 구독 관리"
       },
       "partnership": {
         "title": "파트너십",
-        "email": "partners@humanedge.academy",
+        "email": "partners@humanedgeacademy.cloud",
         "description": "기업, 대학, 정부 파트너십"
       }
     },

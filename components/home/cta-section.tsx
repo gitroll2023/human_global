@@ -48,14 +48,7 @@ export function CtaSection() {
               Transform Your Future Today
             </div>
             
-            <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
-              Start Your Journey in
-              <span className="block bg-gradient-to-r from-white to-white/80 bg-clip-text text-transparent">
-                Humanities Excellence
-              </span>
-            </h2>
-            
-            <p className="text-xl text-white/80 mb-8 max-w-2xl mx-auto leading-relaxed">
+            <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto leading-relaxed">
               Join thousands of students worldwide who have chosen to explore the depths of human culture, 
               history, and thought through our world-class online programs.
             </p>
@@ -66,7 +59,7 @@ export function CtaSection() {
                 <Button 
                   size="lg" 
                   variant="secondary"
-                  className="group px-8 py-6 text-lg font-semibold h-auto bg-white text-primary hover:bg-white/90 shadow-xl"
+                  className="group px-8 py-6 text-lg font-semibold h-auto bg-white text-black hover:bg-white/90 shadow-xl"
                 >
                   Explore Programs
                   <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />

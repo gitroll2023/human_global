@@ -27,14 +27,14 @@ export default function ContactPage() {
     {
       icon: Phone,
       title: 'Phone Support',
-      details: '+1 (555) 123-4567',
+      details: '+1 (617) 495-2000',
       description: 'Mon-Fri 9AM-6PM EST',
     },
     {
       icon: MapPin,
       title: 'Headquarters',
-      details: 'Singapore International Plaza',
-      description: '123 Education Drive, Singapore',
+      details: 'Marina Bay Financial Centre',
+      description: '8 Marina Boulevard, Singapore 018981',
     },
     {
       icon: Globe,
@@ -74,20 +74,20 @@ export default function ContactPage() {
   const offices = [
     {
       country: 'Singapore',
-      address: '123 Education Drive, Singapore 138629',
-      phone: '+65 6123 4567',
+      address: 'Marina Bay Financial Centre Tower 3, 8 Marina Boulevard, Singapore 018981',
+      phone: '+65 6485 3100',
       timezone: 'GMT+8',
     },
     {
       country: 'United States',
-      address: '456 Innovation Way, Boston, MA 02101',
-      phone: '+1 (555) 123-4567',
+      address: '50 Federal Street, Suite 600, Boston, MA 02110',
+      phone: '+1 (617) 495-2000',
       timezone: 'GMT-5',
     },
     {
       country: 'United Kingdom',
-      address: '789 Learning Street, London EC1A 1BB',
-      phone: '+44 20 7123 4567',
+      address: '30 Finsbury Square, London EC2A 1AG',
+      phone: '+44 20 7882 5555',
       timezone: 'GMT+0',
     },
     {
@@ -222,33 +222,6 @@ export default function ContactPage() {
               );
             })}
           </div>
-        </div>
-      </div>
-
-      {/* Global Offices */}
-      <div className="mb-12">
-        <h2 className="text-3xl font-bold text-center mb-8">Our Global Offices</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-          {offices.map((office, index) => (
-            <Card key={index} className="hover:shadow-lg transition-shadow">
-              <CardHeader>
-                <MapPin className="h-6 w-6 text-primary mb-2" />
-                <CardTitle className="text-lg">{office.country}</CardTitle>
-              </CardHeader>
-              <CardContent className="space-y-2">
-                <div className="text-sm">
-                  <p className="text-muted-foreground">{office.address}</p>
-                </div>
-                <div className="text-sm">
-                  <p className="font-medium">Phone: {office.phone}</p>
-                </div>
-                <div className="flex items-center gap-1 text-sm">
-                  <Clock className="h-4 w-4 text-primary" />
-                  <span className="text-muted-foreground">{office.timezone}</span>
-                </div>
-              </CardContent>
-            </Card>
-          ))}
         </div>
       </div>
 

@@ -419,12 +419,12 @@
     "methods": {
       "email": {
         "title": "Email Support",
-        "address": "support@humanedge.academy",
+        "address": "support@humanedgeacademy.cloud",
         "description": "Get help within 24 hours"
       },
       "phone": {
         "title": "Phone Support",
-        "number": "+1 (555) 123-4567",
+        "number": "+1 (555) 231-1511",
         "hours": "Mon-Fri 9AM-6PM EST"
       },
       "headquarters": {
@@ -442,22 +442,22 @@
       "title": "Contact by Department",
       "academic": {
         "title": "Academic Support",
-        "email": "academic@humanedge.academy",
+        "email": "academic@humanedgeacademy.cloud",
         "description": "Course content, assignments, academic guidance"
       },
       "technical": {
         "title": "Technical Support",
-        "email": "tech@humanedge.academy",
+        "email": "tech@humanedgeacademy.cloud",
         "description": "Platform issues, account access, technical help"
       },
       "billing": {
         "title": "Billing & Payment",
-        "email": "billing@humanedge.academy",
+        "email": "billing@humanedgeacademy.cloud",
         "description": "Payments, refunds, subscription management"
       },
       "partnership": {
         "title": "Partnerships",
-        "email": "partners@humanedge.academy",
+        "email": "partners@humanedgeacademy.cloud",
         "description": "Corporate, university, government partnerships"
       }
     },
