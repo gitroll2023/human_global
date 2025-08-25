@@ -281,7 +281,7 @@ export function LearningCentersSection() {
                           </div>
                         </div>
 
-                        {center.homepage && (
+                        {'homepage' in center && center.homepage && (
                           <div className="mt-3">
                             <a 
                               href={center.homepage}
@@ -295,7 +295,7 @@ export function LearningCentersSection() {
                           </div>
                         )}
 
-                        {center.testimonial && (
+                        {'testimonial' in center && center.testimonial && (
                           <div className="mt-4 p-3 bg-muted/50 rounded-lg">
                             <p className="text-sm italic mb-2">"{center.testimonial.text}"</p>
                             <div className="flex items-center gap-2">

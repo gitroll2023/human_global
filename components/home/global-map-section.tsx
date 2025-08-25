@@ -209,7 +209,7 @@ export function GlobalMapSection() {
                         </div>
                         <div className="text-sm text-muted-foreground ml-7">
                           {country.cities.join(' • ')}
-                          {country.homepage && (
+                          {'homepage' in country && country.homepage && (
                             <div className="mt-1">
                               <a 
                                 href={country.homepage} 
