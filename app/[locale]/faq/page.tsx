@@ -142,8 +142,8 @@ export default function FAQPage() {
     },
     {
       category: 'Global Programs',
-      question: 'What is the IEACN global expansion program?',
-      answer: 'IEACN (International Education Academy Corporate Network) is our multinational education initiative that brings quality education, employment opportunities, and economic development to countries worldwide, similar to how historic trading companies operated.',
+      question: 'What is the IEACP global expansion program?',
+      answer: 'IEACP (International Education Academy Corporate Platform) is our multinational education initiative that brings quality education, employment opportunities, and economic development to countries worldwide, similar to how historic trading companies operated.',
     },
     {
       category: 'Global Programs',

@@ -73,7 +73,7 @@ export default function LoginPage() {
           </Link>
           <Badge variant="outline" className="mb-4">
             <Globe className="h-3 w-3 mr-1" />
-            IEACN Member
+            IEACP
           </Badge>
           <h1 className="text-3xl font-bold mb-2">{t('common.login')}</h1>
           <p className="text-muted-foreground">

@@ -427,7 +427,7 @@ function PricingContent() {
         'AI-powered personalized learning paths',
         'Career transition guidance for tech professionals',
         'Access to exclusive religious perspectives on technology',
-        'Networking events with AI ethics professionals',
+        'Professional community events and expert connections',
       ],
     },
     {

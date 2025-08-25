@@ -38,7 +38,7 @@ export default function AboutPage() {
     {
       icon: Users,
       title: 'Community',
-      description: 'Building a supportive network of learners and educators',
+      description: 'Building a supportive community platform connecting learners and educators',
     },
     {
       icon: Zap,
@@ -50,8 +50,8 @@ export default function AboutPage() {
   const timeline = [
     {
       year: '2018',
-      title: 'Foundation as IEACN',
-      description: 'International Education Academy Corporate Network (IEACN) established in Singapore as a multinational education corporation, following the model of historic multinational corporations',
+      title: 'Foundation as IEACP',
+      description: 'International Education Academy Corporate Platform (IEACP) established in Singapore as a multinational education corporation, following the model of historic multinational corporations',
     },
     {
       year: '2019',
@@ -111,13 +111,13 @@ export default function AboutPage() {
       {/* Hero Section */}
       <div className="text-center mb-12">
         <Badge className="mb-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white">
-          About HumanEdge Academy - IEACN
+          About HumanEdge Academy - IEACP
         </Badge>
         <h1 className="text-4xl md:text-5xl font-bold mb-4">
           Empowering Humanity in the AI Era
         </h1>
         <p className="text-xl font-semibold text-primary mb-2">
-          International Education Academy Corporate Network (IEACN)
+          International Education Academy Corporate Platform (IEACP)
         </p>
         <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
           As a multinational education corporation, we operate like the historic trading companies 
@@ -136,7 +136,7 @@ export default function AboutPage() {
           </CardHeader>
           <CardContent>
             <p className="text-muted-foreground">
-              As IEACN, to democratize access to high-quality humanities education while creating 
+              As IEACP, to democratize access to high-quality humanities education while creating 
               employment opportunities and fostering economic development globally. We help professionals 
               worldwide develop critical thinking, creativity, and emotional intelligence - the skills 
               that make us uniquely human and irreplaceable in an AI-driven economy, while contributing 
@@ -151,10 +151,10 @@ export default function AboutPage() {
           </CardHeader>
           <CardContent>
             <p className="text-muted-foreground">
-              A world where IEACN operates as a force for positive global change - creating jobs, 
+              A world where IEACP operates as a force for positive global change - creating jobs, 
               transferring technology, and building educational infrastructure. We envision every 
               professional having the opportunity to adapt, grow, and thrive alongside AI, while our 
-              multinational network drives economic development and international cooperation through education.
+              global platform drives economic development and international cooperation through education.
             </p>
           </CardContent>
         </Card>
@@ -254,13 +254,13 @@ export default function AboutPage() {
               The answer led us to humanity's oldest treasures: Philosophy teaches us to question and reason. History shows us patterns and wisdom from our collective past. Literature develops empathy and emotional intelligence. Art history cultivates aesthetic judgment and cultural understanding. These aren't just subjects—they're the foundation of human consciousness that no algorithm can replicate.
             </p>
             <p className="text-muted-foreground">
-              IEACN isn't just another online education platform. We're building a global renaissance. Our courses in Ancient Philosophy don't just teach Socrates—they develop critical thinking that helps you evaluate AI's decisions. Our Shakespeare studies don't just analyze plays—they build the storytelling skills essential for human connection in a digital world. Our Art History courses don't just show paintings—they train the creative vision needed to guide AI tools meaningfully.
+              IEACP isn't just another online education platform. We're building a global renaissance. Our courses in Ancient Philosophy don't just teach Socrates—they develop critical thinking that helps you evaluate AI's decisions. Our Shakespeare studies don't just analyze plays—they build the storytelling skills essential for human connection in a digital world. Our Art History courses don't just show paintings—they train the creative vision needed to guide AI tools meaningfully.
             </p>
             <p className="text-muted-foreground">
-              Through our multinational network spanning 20 countries, we're creating a new economy—one where a philosophy graduate in Bangkok can consult for Silicon Valley, where a literature expert in São Paulo can shape global AI ethics, where an art historian in Cairo can lead creative AI projects. We're not just creating jobs; we're creating a new category of professionals: Human Intelligence Specialists.
+              Through our global education platform spanning 20 countries, we're creating a new economy—one where a philosophy graduate in Bangkok can consult for Silicon Valley, where a literature expert in São Paulo can shape global AI ethics, where an art historian in Cairo can lead creative AI projects. We're not just creating jobs; we're creating a new category of professionals: Human Intelligence Specialists.
             </p>
             <p className="text-muted-foreground">
-              Our vision is bold: By 2030, IEACN will have educated 10 million Human Intelligence Specialists worldwide, creating the largest network of humanities-trained professionals ready to lead in the AI era. We're partnering with governments to make this education accessible, with corporations to create these new roles, and with international organizations to ensure no nation is left behind.
+              Our vision is bold: By 2030, IEACP will have educated 10 million Human Intelligence Specialists worldwide, creating the largest community platform of humanities-trained professionals ready to lead in the AI era. We're partnering with governments to make this education accessible, with corporations to create these new roles, and with international organizations to ensure no nation is left behind.
             </p>
             <p className="text-muted-foreground">
               Join us in reclaiming humanity's unique gifts. Because in a world of artificial intelligence, human wisdom isn't obsolete—it's priceless.
@@ -268,7 +268,7 @@ export default function AboutPage() {
             <p className="text-muted-foreground font-semibold">
               Warm regards,<br/>
               Dr. James Kim<br/>
-              CEO & Co-Founder, IEACN
+              CEO & Co-Founder, IEACP
             </p>
           </CardContent>
         </Card>
@@ -323,7 +323,7 @@ export default function AboutPage() {
           <div>
             <h3 className="font-semibold mb-2">Our Solution</h3>
             <p className="text-muted-foreground">
-              As a multinational corporation, IEACN combines traditional humanities education with 
+              As a multinational corporation, IEACP combines traditional humanities education with 
               practical, career-focused training while creating employment opportunities, transferring 
               technology, and fostering economic development in every market we serve. We help 
               professionals transition to AI-resistant roles and thrive in the new economy.

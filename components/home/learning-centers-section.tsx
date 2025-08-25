@@ -30,6 +30,7 @@ export function LearningCentersSection() {
           reviews: 0,
           upcoming: true,
           highlight: 'Beta Testing',
+          homepage: 'https://humanedgekorea.asia/',
           testimonial: {
             name: 'HumanEdge Korea',
             role: 'Official Announcement',
@@ -177,14 +178,14 @@ export function LearningCentersSection() {
         <div className="text-center mb-16">
           <Badge className="mb-4" variant="outline">
             <Globe className="w-3 h-3 mr-1" />
-            Global Learning Network
+            Global Learning Platform
           </Badge>
           <h2 className="text-3xl md:text-4xl font-bold tracking-tight mb-4">
             Offline Learning Centers Worldwide
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
             Experience the best of both worlds with our hybrid learning model. 
-            Join local communities, attend in-person seminars, and network with professionals in your area.
+            Join local communities, attend in-person seminars, and connect with professionals in your area through our platform.
           </p>
         </div>
 
@@ -279,6 +280,20 @@ export function LearningCentersSection() {
                             ))}
                           </div>
                         </div>
+
+                        {center.homepage && (
+                          <div className="mt-3">
+                            <a 
+                              href={center.homepage}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="inline-flex items-center gap-1 text-sm text-primary hover:underline"
+                            >
+                              <Globe className="w-4 h-4" />
+                              Visit Korea Website →
+                            </a>
+                          </div>
+                        )}
 
                         {center.testimonial && (
                           <div className="mt-4 p-3 bg-muted/50 rounded-lg">

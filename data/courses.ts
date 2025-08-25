@@ -499,7 +499,7 @@ export const mockCourses: Course[] = [
       {
         week: 7,
         title: 'Social Media and Collective Intelligence',
-        topics: ['Crowd wisdom vs mob mentality', 'Network effects on thinking', 'Building truth-seeking communities', 'Collaborative fact-checking'],
+        topics: ['Crowd wisdom vs mob mentality', 'Collective effects on thinking', 'Building truth-seeking communities', 'Collaborative fact-checking'],
       },
       {
         week: 8,
@@ -685,7 +685,7 @@ export const mockCourses: Course[] = [
       {
         week: 12,
         title: 'Your Leadership Action Plan',
-        topics: ['Personal leadership philosophy', 'Implementation roadmap', 'Building your support network', 'Continuous learning and adaptation'],
+        topics: ['Personal leadership philosophy', 'Implementation roadmap', 'Building your support community', 'Continuous learning and adaptation'],
       },
     ],
     requirements: ['Leadership or management experience', 'Teams experiencing AI transformation', 'Commitment to human-centered leadership'],

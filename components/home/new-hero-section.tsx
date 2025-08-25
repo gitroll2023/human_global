@@ -4,7 +4,7 @@ import { useTranslations } from 'next-intl';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import Link from 'next/link';
-import { ArrowRight, Users, Globe, BookOpen, TrendingUp, Sparkles, AlertCircle } from 'lucide-react';
+import { ArrowRight, Users, Globe, BookOpen, TrendingUp, Sparkles, AlertCircle, Brain, MapPin } from 'lucide-react';
 import { Card } from '@/components/ui/card';
 
 export function NewHeroSection() {
@@ -20,7 +20,7 @@ export function NewHeroSection() {
   return (
     <section className="relative overflow-hidden bg-gradient-to-b from-blue-50 via-background to-background">
       {/* AI Era Announcement Banner */}
-      <div className="bg-gradient-to-r from-blue-600 to-purple-600 text-white py-3">
+      <div className="relative z-10 bg-gradient-to-r from-blue-600 to-purple-600 text-white py-3">
         <div className="container mx-auto px-4 flex items-center justify-center gap-3">
           <Link href="/courses" className="hover:opacity-90 transition-opacity">
             <Badge className="bg-white/20 text-white border-white/30 cursor-pointer hover:bg-white/30">
@@ -38,30 +38,63 @@ export function NewHeroSection() {
         </div>
       </div>
 
+      {/* Special Links Banner */}
+      <div className="relative z-10 bg-gradient-to-r from-orange-500 to-red-500 text-white py-2">
+        <div className="container mx-auto px-4 flex flex-col sm:flex-row items-center justify-center gap-4">
+          <a 
+            href="https://humanedgeai.com/" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="flex items-center gap-2 hover:opacity-90 transition-opacity"
+          >
+            <Badge className="bg-white text-orange-600 border-white cursor-pointer hover:bg-gray-100">
+              <Brain className="w-3 h-3 mr-1" />
+              AI Training Platform
+            </Badge>
+            <span className="text-sm font-medium">Visit our AI Training Center</span>
+            <ArrowRight className="h-3 w-3" />
+          </a>
+          <span className="hidden sm:block text-white/60">|</span>
+          <a 
+            href="https://humanedgekorea.asia/" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="flex items-center gap-2 hover:opacity-90 transition-opacity"
+          >
+            <Badge className="bg-white text-red-600 border-white cursor-pointer hover:bg-gray-100">
+              <MapPin className="w-3 h-3 mr-1" />
+              🇰🇷 Korea HQ
+            </Badge>
+            <span className="text-sm font-medium">Visit Korea Headquarters</span>
+            <ArrowRight className="h-3 w-3" />
+          </a>
+        </div>
+      </div>
+
       {/* Background Pattern */}
       <div className="absolute inset-0 bg-grid-slate-100 [mask-image:linear-gradient(0deg,white,rgba(255,255,255,0.6))] dark:bg-grid-slate-700/25" />
       
       <div className="container relative mx-auto px-4 py-16 sm:py-24">
         <div className="mx-auto max-w-5xl text-center">
-          {/* IEACN Badge */}
+          {/* IEACP Badge */}
           <div className="flex flex-col items-center gap-2 mb-6">
-            <Badge variant="outline" className="px-4 py-2 text-sm border-blue-200 bg-blue-50">
+            <Badge variant="outline" className="text-sm border-blue-200 bg-blue-50">
               <Globe className="h-4 w-4 mr-2 text-blue-600" />
-              International Education Academy Corporate Network (IEACN)
+              International Education Academy Corporate Platform (IEACP)
             </Badge>
-            <Badge variant="outline" className="px-4 py-2 text-sm border-purple-200 bg-purple-50">
+            <Badge variant="outline" className="text-sm border-purple-200 bg-purple-50">
               <Sparkles className="h-4 w-4 mr-2 text-purple-600" />
-              Preparing 500,000+ professionals for the AI economy
+              Building Human Intelligence Specialists for the AI economy
             </Badge>
           </div>
 
-          {/* Main Title */}
-          <h1 className="text-4xl md:text-6xl font-bold tracking-tight mb-6 bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+          {/* Main Headline */}
+          <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold tracking-tight mb-6 bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
             {t('title')}
           </h1>
           
-          {/* Subtitle */}
-          <p className="mt-6 text-lg md:text-xl leading-8 text-muted-foreground max-w-3xl mx-auto">
+          {/* Subheadline */}
+          <p className="text-lg sm:text-xl text-muted-foreground max-w-3xl mx-auto">
             {t('subtitle')}
           </p>
           
@@ -105,14 +138,14 @@ export function NewHeroSection() {
 
         {/* Stats Section */}
         <div className="mt-20">
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 lg:gap-8">
             {stats.map((stat, index) => {
               const Icon = stat.icon;
               return (
-                <Card key={index} className="p-6 text-center border-2 hover:border-blue-200 transition-colors">
-                  <Icon className="h-8 w-8 text-blue-600 mx-auto mb-3" />
-                  <div className="text-3xl font-bold">{stat.value}</div>
-                  <div className="text-sm text-muted-foreground mt-1">{stat.label}</div>
+                <Card key={index} className="p-4 sm:p-6 text-center border-2 hover:border-blue-200 transition-colors">
+                  <Icon className="h-6 w-6 sm:h-8 sm:w-8 text-blue-600 mx-auto mb-2 sm:mb-3" />
+                  <div className="text-xl sm:text-2xl lg:text-3xl font-bold break-all">{stat.value}</div>
+                  <div className="text-xs sm:text-sm text-muted-foreground mt-1">{stat.label}</div>
                 </Card>
               );
             })}

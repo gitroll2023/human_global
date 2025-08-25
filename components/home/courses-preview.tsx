@@ -125,7 +125,7 @@ export function CoursesPreview() {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
           {popularCourses.map((course) => (
             <Card
               key={course.id}
@@ -153,35 +153,33 @@ export function CoursesPreview() {
               </div>
               
               <CardHeader className="pb-4">
-                <div className="flex items-start justify-between">
-                  <div className="flex-1">
-                    <CardTitle className="text-xl leading-tight mb-2">
+                <div className="space-y-3">
+                  <div className="flex items-start justify-between gap-2">
+                    <CardTitle className="text-lg sm:text-xl leading-tight flex-1">
                       {course.title}
                     </CardTitle>
-                    <div className="flex items-center space-x-3 mb-3">
-                      <Avatar className="w-8 h-8">
-                        <AvatarFallback className="text-xs">
-                          {course.instructor.initials}
-                        </AvatarFallback>
-                      </Avatar>
-                      <span className="text-sm text-muted-foreground">
-                        {course.instructor.name}
-                      </span>
-                    </div>
-                  </div>
-                  <div className="text-right">
-                    <div className="text-2xl font-bold text-primary">
+                    <div className="text-xl sm:text-2xl font-bold text-primary shrink-0">
                       {course.price}
                     </div>
                   </div>
+                  <div className="flex items-center space-x-3">
+                    <Avatar className="w-8 h-8">
+                      <AvatarFallback className="text-xs">
+                        {course.instructor.initials}
+                      </AvatarFallback>
+                    </Avatar>
+                    <span className="text-sm text-muted-foreground">
+                      {course.instructor.name}
+                    </span>
+                  </div>
                 </div>
-                <CardDescription className="leading-relaxed">
+                <CardDescription className="leading-relaxed line-clamp-2 mt-3">
                   {course.description}
                 </CardDescription>
               </CardHeader>
 
               <CardContent className="pt-0">
-                <div className="grid grid-cols-2 gap-4 mb-4 text-sm text-muted-foreground">
+                <div className="grid grid-cols-2 gap-2 sm:gap-4 mb-4 text-xs sm:text-sm text-muted-foreground">
                   <div className="flex items-center">
                     <Clock className="w-4 h-4 mr-1" />
                     {course.duration}

@@ -35,7 +35,7 @@ export function Header() {
   const navItems = [
     { href: '/courses', label: t('navigation.courses') },
     { href: '/pricing', label: t('navigation.pricing') },
-    { href: '/corporate-network', label: 'IEACN' },
+    { href: '/corporate-network', label: 'IEACP' },
     { href: '/partners', label: t('navigation.partners') },
     { href: '/about', label: t('navigation.about') },
     { href: '/resources', label: t('navigation.resources') },
@@ -60,10 +60,13 @@ export function Header() {
                 {t('common.siteName')}
               </span>
               <span className="hidden md:inline-block text-xs text-muted-foreground">
-                IEACN Member
+                IEACP
               </span>
             </div>
-            <span className="font-bold text-xl md:hidden">HEA</span>
+            <div className="flex flex-col md:hidden">
+              <span className="font-bold text-sm leading-tight">HumanEdge</span>
+              <span className="font-bold text-sm leading-tight">Academy</span>
+            </div>
           </Link>
 
           {/* Desktop Navigation */}

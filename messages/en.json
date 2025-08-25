@@ -419,7 +419,7 @@
     "methods": {
       "email": {
         "title": "Email Support",
-        "address": "support@humanedgeacademy.cloud",
+        "address": "support@humanedgeacademy.com",
         "description": "Get help within 24 hours"
       },
       "phone": {
@@ -442,22 +442,22 @@
       "title": "Contact by Department",
       "academic": {
         "title": "Academic Support",
-        "email": "academic@humanedgeacademy.cloud",
+        "email": "academic@humanedgeacademy.com",
         "description": "Course content, assignments, academic guidance"
       },
       "technical": {
         "title": "Technical Support",
-        "email": "tech@humanedgeacademy.cloud",
+        "email": "tech@humanedgeacademy.com",
         "description": "Platform issues, account access, technical help"
       },
       "billing": {
         "title": "Billing & Payment",
-        "email": "billing@humanedgeacademy.cloud",
+        "email": "billing@humanedgeacademy.com",
         "description": "Payments, refunds, subscription management"
       },
       "partnership": {
         "title": "Partnerships",
-        "email": "partners@humanedgeacademy.cloud",
+        "email": "partners@humanedgeacademy.com",
         "description": "Corporate, university, government partnerships"
       }
     },

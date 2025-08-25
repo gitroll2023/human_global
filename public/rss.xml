@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" 
+     xmlns:atom="http://www.w3.org/2005/Atom"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>HumanEdge Academy - International Humanities Education Platform</title>
+    <link>https://humanedgeacademy.com</link>
+    <atom:link href="https://humanedgeacademy.com/rss.xml" rel="self" type="application/rss+xml"/>
+    <description>Empowering professionals worldwide with humanities education for the AI era. Develop uniquely human skills through philosophy, critical thinking, leadership, and cultural intelligence.</description>
+    <language>en-us</language>
+    <copyright>Copyright 2025 HumanEdge Academy</copyright>
+    <lastBuildDate>Wed, 01 Jan 2025 00:00:00 GMT</lastBuildDate>
+    <docs>https://www.rssboard.org/rss-specification</docs>
+    <generator>HumanEdge Academy LMS Platform</generator>
+    <managingEditor>content@humanedgeacademy.com (HumanEdge Academy Editorial Team)</managingEditor>
+    <webMaster>tech@humanedgeacademy.com (HumanEdge Academy Tech Team)</webMaster>
+    <category>Education</category>
+    <category>Humanities</category>
+    <category>Philosophy</category>
+    <category>AI Ethics</category>
+    <category>Online Learning</category>
+    <ttl>60</ttl>
+    <image>
+      <url>https://humanedgeacademy.com/logo_symbol.png</url>
+      <title>HumanEdge Academy</title>
+      <link>https://humanedgeacademy.com</link>
+      <width>144</width>
+      <height>144</height>
+    </image>
+    
+    <!-- Featured Course: Introduction to Ancient Philosophy -->
+    <item>
+      <title>New Course: Introduction to Ancient Philosophy</title>
+      <link>https://humanedgeacademy.com/courses/philosophy-003</link>
+      <guid isPermaLink="true">https://humanedgeacademy.com/courses/philosophy-003</guid>
+      <description>Explore the foundational ideas of Western philosophy from ancient Greece to the Hellenistic period with Dr. Sarah Mitchell.</description>
+      <content:encoded><![CDATA[
+        <p>Journey through the philosophical foundations that shaped Western thought in our comprehensive 12-week course on Ancient Philosophy.</p>
+        <h3>What You'll Learn:</h3>
+        <ul>
+          <li>Pre-Socratic philosophers and the search for first principles</li>
+          <li>Socratic method and the examined life</li>
+          <li>Plato's Theory of Forms and the Republic</li>
+          <li>Aristotle's logic, ethics, and politics</li>
+          <li>Hellenistic schools: Stoicism, Epicureanism, and Skepticism</li>
+        </ul>
+        <p>Led by Dr. Sarah Mitchell, a classical philosophy scholar, this course bridges ancient wisdom with modern challenges.</p>
+        <p><strong>Duration:</strong> 12 weeks | <strong>Level:</strong> Beginner | <strong>Price:</strong> $299</p>
+      ]]></content:encoded>
+      <dc:creator>Dr. Sarah Mitchell</dc:creator>
+      <pubDate>Wed, 01 Jan 2025 12:00:00 GMT</pubDate>
+      <category>Philosophy</category>
+      <category>Ancient Philosophy</category>
+      <category>Featured Course</category>
+    </item>
+    
+    <!-- Featured Course: AI Ethics -->
+    <item>
+      <title>AI Ethics: Building Humane Technology</title>
+      <link>https://humanedgeacademy.com/courses/ai-ethics-001</link>
+      <guid isPermaLink="true">https://humanedgeacademy.com/courses/ai-ethics-001</guid>
+      <description>Former OpenAI ethics researcher Dr. Dario Chen explores the ethical implications of artificial intelligence and how to build technology that serves humanity.</description>
+      <content:encoded><![CDATA[
+        <p>As AI transforms our world, understanding its ethical implications becomes crucial for every professional.</p>
+        <h3>Course Highlights:</h3>
+        <ul>
+          <li>The moral weight of code and AI's impact on human autonomy</li>
+          <li>Identifying and addressing bias in AI systems</li>
+          <li>Privacy, surveillance, and data ethics</li>
+          <li>Building inclusive and fair AI systems</li>
+        </ul>
+        <p>Learn from Dr. Dario Chen, former lead ethics researcher at OpenAI with 5 years of experience developing ethical frameworks for large language models.</p>
+        <p><strong>Duration:</strong> 8 weeks | <strong>Level:</strong> Beginner | <strong>Price:</strong> $349</p>
+      ]]></content:encoded>
+      <dc:creator>Dr. Dario Chen</dc:creator>
+      <pubDate>Tue, 31 Dec 2024 12:00:00 GMT</pubDate>
+      <category>AI Ethics</category>
+      <category>Technology</category>
+      <category>Philosophy</category>
+    </item>
+    
+    <!-- Partnership Announcement -->
+    <item>
+      <title>Global Expansion: New Learning Centers in Asia Pacific</title>
+      <link>https://humanedgeacademy.com/partners/korea</link>
+      <guid isPermaLink="true">https://humanedgeacademy.com/news/apac-expansion-2025</guid>
+      <description>HumanEdge Academy announces strategic expansion into South Korea, Japan, and Southeast Asia with localized humanities education programs.</description>
+      <content:encoded><![CDATA[
+        <p>We're excited to announce our expansion into the Asia Pacific region, starting with South Korea in August 2025.</p>
+        <h3>Expansion Timeline:</h3>
+        <ul>
+          <li><strong>August 2025:</strong> South Korea - Seoul, Incheon, Busan centers</li>
+          <li><strong>September 2025:</strong> Japan - Tokyo, Osaka centers</li>
+          <li><strong>October 2025:</strong> Singapore and Bangkok centers</li>
+          <li><strong>November 2025:</strong> India - Mumbai, Bangalore centers</li>
+        </ul>
+        <p>Each center will offer localized curriculum combining global humanities education with regional philosophical traditions and cultural perspectives.</p>
+        <p>Partnership opportunities are now open for qualified education organizations and franchise operators.</p>
+      ]]></content:encoded>
+      <dc:creator>HumanEdge Academy</dc:creator>
+      <pubDate>Mon, 30 Dec 2024 09:00:00 GMT</pubDate>
+      <category>Partnership</category>
+      <category>Expansion</category>
+      <category>Asia Pacific</category>
+    </item>
+    
+    <!-- Course Update: Stoicism -->
+    <item>
+      <title>Stoicism and Digital Resilience: Navigate the Modern World with Ancient Wisdom</title>
+      <link>https://humanedgeacademy.com/courses/philosophy-002</link>
+      <guid isPermaLink="true">https://humanedgeacademy.com/courses/philosophy-002</guid>
+      <description>Learn how ancient Stoic wisdom can help you maintain inner peace and rational thinking in our hyperconnected, AI-driven world.</description>
+      <content:encoded><![CDATA[
+        <p>Discover how the teachings of Marcus Aurelius, Epictetus, and Seneca remain profoundly relevant in the digital age.</p>
+        <h3>Why Stoicism Matters Today:</h3>
+        <ul>
+          <li>Managing digital anxiety and information overload</li>
+          <li>Building resilience against social media pressures</li>
+          <li>Finding meaning in technological disruption</li>
+          <li>Developing unshakeable inner peace</li>
+        </ul>
+        <p>Dr. Alexandra Reed, former Tesla AI Ethics Advisor and author of "Digital Stoicism," guides you through practical applications of Stoic philosophy.</p>
+        <p><strong>Duration:</strong> 8 weeks | <strong>Level:</strong> Beginner | <strong>Price:</strong> $249</p>
+      ]]></content:encoded>
+      <dc:creator>Dr. Alexandra Reed</dc:creator>
+      <pubDate>Sun, 29 Dec 2024 10:00:00 GMT</pubDate>
+      <category>Philosophy</category>
+      <category>Stoicism</category>
+      <category>Digital Wellness</category>
+    </item>
+    
+    <!-- Leadership Course -->
+    <item>
+      <title>Leading Humans in the Age of Artificial Intelligence</title>
+      <link>https://humanedgeacademy.com/courses/leadership-001</link>
+      <guid isPermaLink="true">https://humanedgeacademy.com/courses/leadership-001</guid>
+      <description>Transform your leadership approach for AI-augmented teams with insights from former Microsoft VP Dr. Michael Park.</description>
+      <content:encoded><![CDATA[
+        <p>As AI transforms the workplace, leaders must evolve to guide human-AI collaborative teams effectively.</p>
+        <h3>Master These Critical Skills:</h3>
+        <ul>
+          <li>Managing human-AI team dynamics</li>
+          <li>Addressing automation anxiety and building trust</li>
+          <li>Preserving human culture in digital workplaces</li>
+          <li>Ethical leadership in AI implementation</li>
+          <li>Strategic workforce planning for the AI era</li>
+        </ul>
+        <p>Dr. Michael Park, who led Microsoft's AI division for 7 years managing 500+ engineers, shares proven strategies for human-centered leadership.</p>
+        <p><strong>Duration:</strong> 12 weeks | <strong>Level:</strong> Advanced | <strong>Price:</strong> $499</p>
+      ]]></content:encoded>
+      <dc:creator>Dr. Michael Park</dc:creator>
+      <pubDate>Sat, 28 Dec 2024 11:00:00 GMT</pubDate>
+      <category>Leadership</category>
+      <category>Management</category>
+      <category>AI Transformation</category>
+    </item>
+    
+    <!-- Platform Update -->
+    <item>
+      <title>New Feature: Personalized Learning Paths with AI-Powered Recommendations</title>
+      <link>https://humanedgeacademy.com/features/personalized-learning</link>
+      <guid isPermaLink="true">https://humanedgeacademy.com/updates/personalized-learning-2025</guid>
+      <description>Our new AI-powered recommendation engine creates personalized humanities learning paths based on your career goals and interests.</description>
+      <content:encoded><![CDATA[
+        <p>We're thrilled to introduce personalized learning paths that adapt to your unique learning style and career objectives.</p>
+        <h3>Key Features:</h3>
+        <ul>
+          <li>AI-analyzed skill gap assessment</li>
+          <li>Customized course recommendations</li>
+          <li>Adaptive pacing based on your progress</li>
+          <li>Cross-disciplinary connections for holistic learning</li>
+          <li>Career-aligned certification paths</li>
+        </ul>
+        <p>Our system combines cutting-edge AI technology with human expertise to ensure you develop the most relevant humanities skills for your professional growth.</p>
+        <p>Available now for all Professional and Enterprise plan members.</p>
+      ]]></content:encoded>
+      <dc:creator>HumanEdge Academy Product Team</dc:creator>
+      <pubDate>Fri, 27 Dec 2024 08:00:00 GMT</pubDate>
+      <category>Platform Updates</category>
+      <category>Technology</category>
+      <category>Personalization</category>
+    </item>
+    
+    <!-- Research Article -->
+    <item>
+      <title>Research Report: The Rising Demand for Humanities Skills in the AI Economy</title>
+      <link>https://humanedgeacademy.com/research/humanities-ai-economy-2025</link>
+      <guid isPermaLink="true">https://humanedgeacademy.com/research/humanities-ai-economy-2025</guid>
+      <description>Our latest research reveals that 73% of Fortune 500 companies now prioritize humanities skills in their hiring and training programs.</description>
+      <content:encoded><![CDATA[
+        <p>New research from HumanEdge Academy's Research Institute shows a dramatic shift in corporate learning priorities.</p>
+        <h3>Key Findings:</h3>
+        <ul>
+          <li>73% of Fortune 500 companies actively seek humanities-trained professionals</li>
+          <li>Critical thinking and ethical reasoning top the list of desired skills</li>
+          <li>Companies with humanities-focused L&D programs report 45% higher innovation metrics</li>
+          <li>Philosophy and ethics training reduces AI implementation risks by 60%</li>
+        </ul>
+        <p>The comprehensive report, based on surveys of 500+ companies and 10,000+ professionals, demonstrates the growing recognition that human judgment, creativity, and ethical reasoning are irreplaceable in the AI era.</p>
+        <p>Download the full report at our research center.</p>
+      ]]></content:encoded>
+      <dc:creator>HumanEdge Academy Research Institute</dc:creator>
+      <pubDate>Thu, 26 Dec 2024 09:00:00 GMT</pubDate>
+      <category>Research</category>
+      <category>Industry Trends</category>
+      <category>Humanities</category>
+    </item>
+    
+  </channel>
+</rss>

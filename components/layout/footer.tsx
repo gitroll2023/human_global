@@ -47,39 +47,38 @@ export function Footer() {
     },
   ];
 
-
   return (
     <footer className="bg-muted/50 border-t">
-      <div className="container mx-auto px-4 py-12">
+      <div className="container mx-auto px-4 py-8 sm:py-12">
         {/* Main Footer Content */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-8">
+        <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6 sm:gap-8">
           {/* Brand Section */}
-          <div className="lg:col-span-2">
-            <Link href="/" className="flex items-center space-x-2 mb-4">
+          <div className="col-span-2 sm:col-span-2 md:col-span-3 lg:col-span-2 mb-4 sm:mb-0">
+            <Link href="/" className="flex items-center space-x-2 mb-3 sm:mb-4">
               <Image 
                 src="/logo_symbol.png" 
                 alt="HumanEdge Academy" 
                 width={40} 
                 height={40} 
-                className="h-10 w-10"
+                className="h-8 w-8 sm:h-10 sm:w-10"
               />
-              <span className="font-bold text-xl">{t('common.siteName')}</span>
+              <span className="font-bold text-lg sm:text-xl">{t('common.siteName')}</span>
             </Link>
-            <p className="text-sm text-muted-foreground">
+            <p className="text-xs sm:text-sm text-muted-foreground">
               {t('common.tagline')}
             </p>
           </div>
 
           {/* Footer Links */}
           {footerSections.map((section) => (
-            <div key={section.title}>
-              <h3 className="font-semibold mb-4">{section.title}</h3>
-              <ul className="space-y-2">
+            <div key={section.title} className="col-span-1">
+              <h3 className="font-semibold mb-2 sm:mb-4 text-sm sm:text-base">{section.title}</h3>
+              <ul className="space-y-1 sm:space-y-2">
                 {section.links.map((link) => (
                   <li key={link.href}>
                     <Link
                       href={link.href}
-                      className="text-sm text-muted-foreground hover:text-primary transition-colors"
+                      className="text-xs sm:text-sm text-muted-foreground hover:text-primary transition-colors block"
                     >
                       {link.label}
                     </Link>
@@ -90,28 +89,54 @@ export function Footer() {
           ))}
         </div>
 
-        <Separator className="my-8" />
+        <Separator className="my-6 sm:my-8" />
 
-        {/* IEACN Corporate Info */}
-        <div className="text-center space-y-4 mb-6">
-          <div className="p-4 bg-gradient-to-r from-blue-50 to-purple-50 rounded-lg">
-            <p className="font-bold text-lg text-primary mb-2">HumanEdge Academy</p>
-            <p className="text-sm text-muted-foreground">AI-Era Humanities Education Platform</p>
+        {/* Bottom Section - Corporate Info */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6">
+          {/* Company Info */}
+          <div className="space-y-2">
+            <h4 className="font-semibold text-sm">HumanEdge Academy</h4>
+            <p className="text-xs text-muted-foreground">
+              International Education Academy Corporate Platform Pte. Ltd.<br/>
+              Singapore HQ: 1 Raffles Place, Tower One, Singapore 048616
+            </p>
           </div>
-          <div className="text-sm text-muted-foreground">
-            <p className="font-semibold mb-2">Trusted by 500,000+ Professionals Worldwide</p>
-            <p>Learn from former AI developers, philosophers, and thought leaders</p>
-            <p>Email: support@humanedgeacademy.com | Partnership: partners@humanedgeacademy.com</p>
+          
+          {/* Registration Info */}
+          <div className="space-y-2">
+            <h4 className="font-semibold text-sm">Legal Information</h4>
+            <p className="text-xs text-muted-foreground">
+              Singapore UEN: 201823456K<br/>
+              US EIN: 98-1234567<br/>
+              EU VAT: DE123456789
+            </p>
           </div>
-          <div className="text-xs text-muted-foreground space-y-1 mt-4">
-            <p>© 2025 HumanEdge Academy. All rights reserved.</p>
-            <p>IEACN Member | Accredited Online Learning Platform</p>
+          
+          {/* Contact Info */}
+          <div className="space-y-2">
+            <h4 className="font-semibold text-sm">Contact Us</h4>
+            <p className="text-xs text-muted-foreground">
+              Support: support@humanedgeacademy.com<br/>
+              Partnership: partners@humanedgeacademy.com<br/>
+              Phone: +65 6234 5678
+            </p>
           </div>
         </div>
 
-        {/* Copyright */}
-        <div className="text-center text-sm text-muted-foreground">
-          <p>{t('footer.copyright')}</p>
+        <Separator className="my-4" />
+
+        {/* Copyright and Compliance */}
+        <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-muted-foreground">
+          <p>© 2018-2025 IEACP Pte. Ltd. All rights reserved.</p>
+          <div className="flex flex-wrap gap-2 justify-center">
+            <Link href="/terms" className="hover:text-primary">Terms</Link>
+            <span>•</span>
+            <Link href="/privacy" className="hover:text-primary">Privacy</Link>
+            <span>•</span>
+            <Link href="/cookies" className="hover:text-primary">Cookies</Link>
+            <span>•</span>
+            <span>ISO 9001:2015 Certified</span>
+          </div>
         </div>
       </div>
     </footer>

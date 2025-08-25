@@ -6,6 +6,7 @@ import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { Building, Globe, Users, Award, TrendingUp, HandshakeIcon, MapPin } from 'lucide-react';
 import Link from 'next/link';
+import { AIPartnersShowcase } from '@/components/partners/ai-partners-showcase';
 
 export default function PartnersPage() {
   const t = useTranslations();
@@ -14,24 +15,25 @@ export default function PartnersPage() {
     {
       country: 'South Korea',
       status: 'Launching August 2025',
-      description: 'Strategic partnership with leading Korean education technology company',
+      description: 'Exclusive licensing rights secured with leading Korean education technology company',
       href: '/partners/korea',
+      homepage: 'https://humanedgekorea.asia/',
       featured: true,
     },
     {
       country: 'United States',
       status: 'Active',
-      description: 'Collaboration with major US universities and corporate training programs',
+      description: 'Licensed education centers operating with major US universities and corporations',
     },
     {
       country: 'United Kingdom',
       status: 'Active',
-      description: 'Partnership with UK professional development institutions',
+      description: 'Licensed centers integrated with UK professional development institutions',
     },
     {
       country: 'Germany',
       status: 'Active',
-      description: 'Working with German vocational education systems',
+      description: 'Licensed centers operating within German vocational education systems',
     },
     {
       country: 'Singapore',
@@ -39,9 +41,15 @@ export default function PartnersPage() {
       description: 'Regional hub for Southeast Asian operations',
     },
     {
+      country: 'Nepal',
+      status: 'Active',
+      description: 'Dedicated education center serving the Himalayan region',
+      homepage: 'https://humanedgenepal.com/',
+    },
+    {
       country: 'Japan',
       status: 'Active',
-      description: 'Corporate training partnerships with major Japanese companies',
+      description: 'Licensed corporate training centers serving major Japanese companies',
     },
     {
       country: 'India',
@@ -64,15 +72,15 @@ export default function PartnersPage() {
     },
     {
       icon: HandshakeIcon,
-      title: 'Corporate Partners',
+      title: 'Corporate Centers',
       count: '200+',
-      description: 'Leading companies using our platform for employee reskilling',
+      description: 'Licensed education centers serving corporate clients and employee development',
     },
     {
       icon: Globe,
-      title: 'Government Partners',
+      title: 'Government Centers',
       count: '15',
-      description: 'National and regional governments supporting workforce development',
+      description: 'Licensed centers working with government workforce development programs',
     },
     {
       icon: Award,
@@ -100,12 +108,12 @@ export default function PartnersPage() {
       description: 'Comprehensive learning analytics and progress tracking',
     },
     {
-      title: 'Local Support',
-      description: 'Dedicated partnership managers in each region',
+      title: 'Ongoing Support',
+      description: 'Dedicated franchise support and training for license holders',
     },
     {
-      title: 'Revenue Sharing',
-      description: 'Competitive revenue sharing models for all partners',
+      title: 'Independent Business Ownership',
+      description: 'Build and operate your own education center with full territorial rights',
     },
   ];
 
@@ -117,11 +125,11 @@ export default function PartnersPage() {
           Operating in 20 Countries
         </Badge>
         <h1 className="text-4xl md:text-5xl font-bold mb-4">
-          Global Partnership Network
+          International Education Licensing Program
         </h1>
         <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-          Join our mission to prepare humanity for the AI era through strategic partnerships 
-          in education, corporate training, and workforce development
+          Acquire exclusive territorial business rights to operate premium education centers 
+          and deliver AI-era humanities education in your region
         </p>
       </div>
 
@@ -146,7 +154,7 @@ export default function PartnersPage() {
 
       {/* Global Presence */}
       <div className="mb-12">
-        <h2 className="text-3xl font-bold text-center mb-8">Our Global Presence</h2>
+        <h2 className="text-3xl font-bold text-center mb-8">Licensed Centers Worldwide</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {globalPartners.map((partner, index) => (
             <Card 
@@ -176,13 +184,24 @@ export default function PartnersPage() {
                     </Button>
                   </Link>
                 )}
+                {partner.homepage && (
+                  <a 
+                    href={partner.homepage} 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                  >
+                    <Button variant="outline" size="sm" className="w-full mt-2">
+                      Visit {partner.country} Website →
+                    </Button>
+                  </a>
+                )}
               </CardContent>
             </Card>
           ))}
         </div>
         <div className="text-center mt-8">
           <p className="text-muted-foreground">
-            And partnerships in: France, Spain, Italy, Netherlands, Sweden, Chile, Mexico, 
+            Licensed centers also operating in: France, Spain, Italy, Netherlands, Sweden, Chile, Mexico, 
             Thailand, Australia, Canada, Poland, Portugal, Turkey
           </p>
         </div>
@@ -190,7 +209,7 @@ export default function PartnersPage() {
 
       {/* Partnership Benefits */}
       <div className="mb-12 bg-muted/50 rounded-lg p-8">
-        <h2 className="text-3xl font-bold text-center mb-8">Partnership Benefits</h2>
+        <h2 className="text-3xl font-bold text-center mb-8">Licensing Benefits</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {benefits.map((benefit, index) => (
             <div key={index} className="flex gap-4">
@@ -207,55 +226,58 @@ export default function PartnersPage() {
       {/* Become a Partner CTA */}
       <Card className="border-2 border-primary">
         <CardHeader className="text-center">
-          <CardTitle className="text-2xl">Become a Partner</CardTitle>
+          <CardTitle className="text-2xl">Acquire Education Business Rights</CardTitle>
           <CardDescription className="text-base">
-            Join our global network and help prepare professionals for the AI era
+            Secure exclusive territorial rights to operate HumanEdge Academy education centers
           </CardDescription>
         </CardHeader>
         <CardContent>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
             <Card className="text-center p-4">
               <Users className="h-8 w-8 text-primary mx-auto mb-2" />
-              <h3 className="font-semibold">Universities</h3>
+              <h3 className="font-semibold">University Licensing</h3>
               <p className="text-xs text-muted-foreground mt-1">
-                Offer accredited programs and research collaboration
+                Acquire rights to operate education centers within university systems
               </p>
             </Card>
             <Card className="text-center p-4">
               <Building className="h-8 w-8 text-primary mx-auto mb-2" />
-              <h3 className="font-semibold">Corporations</h3>
+              <h3 className="font-semibold">Corporate Licensing</h3>
               <p className="text-xs text-muted-foreground mt-1">
-                Reskill your workforce for the AI era
+                Establish dedicated education centers for corporate training programs
               </p>
             </Card>
             <Card className="text-center p-4">
               <Globe className="h-8 w-8 text-primary mx-auto mb-2" />
-              <h3 className="font-semibold">Governments</h3>
+              <h3 className="font-semibold">Government Licensing</h3>
               <p className="text-xs text-muted-foreground mt-1">
-                Support national workforce development
+                Secure territorial rights for government workforce development programs
               </p>
             </Card>
           </div>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">
               <Button size="lg" className="w-full sm:w-auto">
-                Contact Partnership Team
+                Contact Licensing Team
               </Button>
             </Link>
             <Button size="lg" variant="outline" className="w-full sm:w-auto">
-              Download Partnership Guide
+              Download Franchise Prospectus
             </Button>
           </div>
         </CardContent>
       </Card>
 
+      {/* AI Partners Showcase */}
+      <AIPartnersShowcase />
+
       {/* Success Stories */}
       <div className="mt-12">
-        <h2 className="text-3xl font-bold text-center mb-8">Partnership Success Stories</h2>
+        <h2 className="text-3xl font-bold text-center mb-8">Licensed Center Success Stories</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <Card className="bg-gradient-to-br from-blue-50 to-purple-50">
             <CardHeader>
-              <Badge className="w-fit mb-2">Corporate Partnership</Badge>
+              <Badge className="w-fit mb-2">Licensed Corporate Center</Badge>
               <CardTitle>Fortune 500 Tech Company</CardTitle>
             </CardHeader>
             <CardContent>
@@ -269,12 +291,12 @@ export default function PartnersPage() {
           </Card>
           <Card className="bg-gradient-to-br from-green-50 to-emerald-50">
             <CardHeader>
-              <Badge className="w-fit mb-2">University Partnership</Badge>
+              <Badge className="w-fit mb-2">Licensed University Center</Badge>
               <CardTitle>Leading European University</CardTitle>
             </CardHeader>
             <CardContent>
               <p className="text-sm text-muted-foreground mb-4">
-                "Our partnership with HumanEdge Academy has enabled us to offer cutting-edge online programs 
+                "Our licensed HumanEdge Academy center has enabled us to offer cutting-edge online programs 
                 that combine traditional humanities education with AI-era skills. Enrollment has increased 
                 by 300% in just two years."
               </p>

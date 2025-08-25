@@ -29,7 +29,7 @@ export default function CentersPage() {
               <Building className="w-16 h-16 mx-auto mb-4 text-primary" />
               <Badge className="mb-4" variant="outline">
                 <Globe className="w-3 h-3 mr-1" />
-                Global Network
+                Global Education Platform
               </Badge>
               
               <h1 className="text-3xl font-bold mb-4">
@@ -37,8 +37,8 @@ export default function CentersPage() {
               </h1>
               
               <p className="text-lg text-muted-foreground mb-6">
-                Our learning centers are part of our global partner network.
-                You'll be redirected to our partners page momentarily...
+                Our learning centers operate through our global education licensing platform.
+                You'll be redirected to our licensing partners page momentarily...
               </p>
               
               <div className="bg-gradient-to-r from-blue-50 to-purple-50 rounded-lg p-6 mb-6">
@@ -62,14 +62,14 @@ export default function CentersPage() {
               <div className="space-y-3">
                 <Link href="/partners">
                   <Button size="lg" className="w-full max-w-sm">
-                    View Partner Network
+                    View Licensing Platform
                     <ArrowRight className="w-4 h-4 ml-2" />
                   </Button>
                 </Link>
                 
                 <Link href="/partners/apply">
                   <Button size="lg" variant="outline" className="w-full max-w-sm">
-                    Become a Partner
+                    Apply for License
                     <Users className="w-4 h-4 ml-2" />
                   </Button>
                 </Link>

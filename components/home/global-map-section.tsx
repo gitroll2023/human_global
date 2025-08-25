@@ -21,8 +21,8 @@ export function GlobalMapSection() {
     asia: {
       name: 'Asia Pacific',
       headquarters: 'Singapore',
-      countries: 3,
-      centers: 5,
+      countries: 4,
+      centers: 6,
       students: '42,000+',
       growth: '+18%',
       flag: '🇸🇬',
@@ -31,7 +31,8 @@ export function GlobalMapSection() {
         { country: 'Singapore', cities: ['Singapore'], status: 'Active', flag: '🇸🇬' },
         { country: 'Hong Kong', cities: ['Hong Kong'], status: 'Active', flag: '🇭🇰' },
         { country: 'Australia', cities: ['Sydney', 'Melbourne'], status: 'Active', flag: '🇦🇺' },
-        { country: 'South Korea', cities: ['Incheon', 'Seoul'], status: 'Launching Aug 2025', flag: '🇰🇷' },
+        { country: 'South Korea', cities: ['Incheon', 'Seoul'], status: 'Launching Aug 2025', flag: '🇰🇷', homepage: 'https://humanedgekorea.asia/' },
+        { country: 'Nepal', cities: ['Kathmandu'], status: 'Active', flag: '🇳🇵', homepage: 'https://humanedgenepal.com/' },
       ]
     },
     americas: {
@@ -77,7 +78,7 @@ export function GlobalMapSection() {
         <div className="text-center mb-16">
           <Badge className="mb-4" variant="outline">
             <Globe className="w-3 h-3 mr-1" />
-            Global Network
+            Global Platform
           </Badge>
           <h2 className="text-3xl md:text-4xl font-bold tracking-tight mb-4">
             A Truly Global Education Company
@@ -89,36 +90,36 @@ export function GlobalMapSection() {
         </div>
 
         {/* Global Statistics */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-12">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-3 sm:gap-4 mb-12">
           <Card className="bg-gradient-to-br from-blue-500/10 to-purple-500/10 border-blue-200 dark:border-blue-800">
-            <CardContent className="p-6 text-center">
-              <Globe className="w-8 h-8 mx-auto mb-2 text-blue-600 dark:text-blue-400" />
-              <div className="text-3xl font-bold">16</div>
-              <div className="text-sm text-muted-foreground">Countries</div>
+            <CardContent className="p-4 sm:p-6 text-center">
+              <Globe className="w-6 h-6 sm:w-8 sm:h-8 mx-auto mb-2 text-blue-600 dark:text-blue-400" />
+              <div className="text-xl sm:text-2xl lg:text-3xl font-bold">16</div>
+              <div className="text-xs sm:text-sm text-muted-foreground">Countries</div>
               <div className="text-xs text-green-600 dark:text-green-400 mt-1">+4 in 2025</div>
             </CardContent>
           </Card>
           <Card className="bg-gradient-to-br from-green-500/10 to-emerald-500/10 border-green-200 dark:border-green-800">
-            <CardContent className="p-6 text-center">
-              <Users className="w-8 h-8 mx-auto mb-2 text-green-600 dark:text-green-400" />
-              <div className="text-3xl font-bold">382K+</div>
-              <div className="text-sm text-muted-foreground">Active Students</div>
+            <CardContent className="p-4 sm:p-6 text-center">
+              <Users className="w-6 h-6 sm:w-8 sm:h-8 mx-auto mb-2 text-green-600 dark:text-green-400" />
+              <div className="text-xl sm:text-2xl lg:text-3xl font-bold">382K+</div>
+              <div className="text-xs sm:text-sm text-muted-foreground">Active Students</div>
               <div className="text-xs text-green-600 dark:text-green-400 mt-1">+28% YoY</div>
             </CardContent>
           </Card>
           <Card className="bg-gradient-to-br from-purple-500/10 to-pink-500/10 border-purple-200 dark:border-purple-800">
-            <CardContent className="p-6 text-center">
-              <Building className="w-8 h-8 mx-auto mb-2 text-purple-600 dark:text-purple-400" />
-              <div className="text-3xl font-bold">32</div>
-              <div className="text-sm text-muted-foreground">Learning Centers</div>
+            <CardContent className="p-4 sm:p-6 text-center">
+              <Building className="w-6 h-6 sm:w-8 sm:h-8 mx-auto mb-2 text-purple-600 dark:text-purple-400" />
+              <div className="text-xl sm:text-2xl lg:text-3xl font-bold">32</div>
+              <div className="text-xs sm:text-sm text-muted-foreground">Learning Centers</div>
               <div className="text-xs text-green-600 dark:text-green-400 mt-1">+8 in 2025</div>
             </CardContent>
           </Card>
           <Card className="bg-gradient-to-br from-orange-500/10 to-red-500/10 border-orange-200 dark:border-orange-800">
-            <CardContent className="p-6 text-center">
-              <Network className="w-8 h-8 mx-auto mb-2 text-orange-600 dark:text-orange-400" />
-              <div className="text-3xl font-bold">3</div>
-              <div className="text-sm text-muted-foreground">Regional HQs</div>
+            <CardContent className="p-4 sm:p-6 text-center">
+              <Network className="w-6 h-6 sm:w-8 sm:h-8 mx-auto mb-2 text-orange-600 dark:text-orange-400" />
+              <div className="text-xl sm:text-2xl lg:text-3xl font-bold">3</div>
+              <div className="text-xs sm:text-sm text-muted-foreground">Regional HQs</div>
               <div className="text-xs text-muted-foreground mt-1">24/7 Support</div>
             </CardContent>
           </Card>
@@ -145,7 +146,7 @@ export function GlobalMapSection() {
 
           {/* Selected Region Details */}
           <Card className="border-2">
-            <CardContent className="p-8">
+            <CardContent className="p-4 sm:p-6 lg:p-8">
               <div className="grid md:grid-cols-2 gap-8">
                 {/* Left: Region Info */}
                 <div>
@@ -208,6 +209,18 @@ export function GlobalMapSection() {
                         </div>
                         <div className="text-sm text-muted-foreground ml-7">
                           {country.cities.join(' • ')}
+                          {country.homepage && (
+                            <div className="mt-1">
+                              <a 
+                                href={country.homepage} 
+                                target="_blank" 
+                                rel="noopener noreferrer"
+                                className="text-xs text-primary hover:underline"
+                              >
+                                Visit {country.country} Website →
+                              </a>
+                            </div>
+                          )}
                         </div>
                       </div>
                     ))}
@@ -437,9 +450,9 @@ export function GlobalMapSection() {
           <Card>
             <CardContent className="p-6">
               <Network className="w-8 h-8 mb-4 text-primary" />
-              <h3 className="font-semibold mb-2">Global Network</h3>
+              <h3 className="font-semibold mb-2">Global Platform</h3>
               <p className="text-sm text-muted-foreground">
-                Connect with professionals and opportunities worldwide through our network
+                Access professional education and business opportunities worldwide through our platform
               </p>
             </CardContent>
           </Card>

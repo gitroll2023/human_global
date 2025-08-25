@@ -156,7 +156,7 @@ export default function PrivacyPage() {
                 <div>
                   <h3 className="font-semibold text-green-800 mb-2">Our Privacy Commitment</h3>
                   <p className="text-green-700 text-sm">
-                    HumanEdge Academy (IEACN) is committed to protecting your privacy and ensuring 
+                    HumanEdge Academy (IEACP) is committed to protecting your privacy and ensuring 
                     transparency about how we handle your personal information. We comply with GDPR, CCPA, 
                     and other applicable privacy laws worldwide.
                   </p>

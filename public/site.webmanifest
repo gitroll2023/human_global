@@ -1,0 +1,28 @@
+{
+  "name": "HumanEdge Academy",
+  "short_name": "HumanEdge",
+  "description": "International Humanities Education Platform - Empowering professionals worldwide with humanities education for the AI era",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#3b82f6",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/logo_symbol.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/logo_symbol.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["education", "humanities", "philosophy", "learning"],
+  "lang": "en-US",
+  "dir": "ltr",
+  "prefer_related_applications": false
+}

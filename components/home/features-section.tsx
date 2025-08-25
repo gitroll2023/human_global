@@ -41,16 +41,16 @@ export function FeaturesSection() {
   return (
     <section className="py-24 bg-gradient-to-b from-background to-muted/20">
       <div className="container mx-auto px-4">
-        <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold tracking-tight mb-4">
+        <div className="text-center mb-12 md:mb-16">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold tracking-tight mb-3 md:mb-4 px-2">
             {t('title')}
           </h2>
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+          <p className="text-base sm:text-lg text-muted-foreground max-w-2xl mx-auto px-4">
             {t('subtitle')}
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6">
           {features.map((feature, index) => {
             const Icon = feature.icon;
             return (
@@ -58,14 +58,14 @@ export function FeaturesSection() {
                 key={index}
                 className={`relative overflow-hidden border-0 bg-gradient-to-br ${feature.gradient} hover:shadow-lg transition-all duration-300 hover:-translate-y-1`}
               >
-                <CardHeader className="text-center">
-                  <div className="mx-auto mb-4 w-16 h-16 rounded-full bg-background/80 backdrop-blur-sm flex items-center justify-center shadow-md">
-                    <Icon className={`w-8 h-8 ${feature.iconColor}`} />
+                <CardHeader className="text-center pb-2 sm:pb-4">
+                  <div className="mx-auto mb-3 sm:mb-4 w-14 h-14 sm:w-16 sm:h-16 rounded-full bg-background/80 backdrop-blur-sm flex items-center justify-center shadow-md">
+                    <Icon className={`w-6 h-6 sm:w-8 sm:h-8 ${feature.iconColor}`} />
                   </div>
-                  <CardTitle className="text-xl">{feature.title}</CardTitle>
+                  <CardTitle className="text-lg sm:text-xl">{feature.title}</CardTitle>
                 </CardHeader>
-                <CardContent>
-                  <CardDescription className="text-center leading-relaxed">
+                <CardContent className="pt-0">
+                  <CardDescription className="text-center text-sm sm:text-base leading-relaxed">
                     {feature.description}
                   </CardDescription>
                 </CardContent>

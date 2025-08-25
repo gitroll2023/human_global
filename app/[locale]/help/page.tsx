@@ -83,9 +83,9 @@ export default function HelpPage() {
     {
       icon: Globe,
       title: 'Global Programs',
-      description: 'Information about IEACN international initiatives',
+      description: 'Information about IEACP international initiatives',
       articles: [
-        'IEACN partnership program',
+        'IEACP partnership program',
         'Country-specific offerings',
         'Local language support',
         'University credit transfer',

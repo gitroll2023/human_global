@@ -65,16 +65,7 @@ export function CtaSection() {
                   <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
                 </Button>
               </Link>
-              <Link href="/register">
-                <Button 
-                  size="lg" 
-                  variant="outline"
-                  className="group px-8 py-6 text-lg font-semibold h-auto border-white/30 text-white hover:bg-white/10 backdrop-blur-sm"
-                >
-                  {tCommon('getStarted')}
-                  <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
-                </Button>
-              </Link>
+              
             </div>
           </div>
 

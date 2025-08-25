@@ -106,7 +106,7 @@ export default function SignupPage() {
           </Link>
           <Badge variant="outline" className="mb-4">
             <Globe className="h-3 w-3 mr-1" />
-            IEACN - International Education Academy Corporate Network
+            IEACP - International Education Academy Corporate Platform
           </Badge>
           <h1 className="text-3xl font-bold mb-2">Create Your Account</h1>
           <p className="text-muted-foreground">

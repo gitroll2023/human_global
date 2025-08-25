@@ -116,7 +116,7 @@ export default function TermsPage() {
                   <p>
                     These Terms of Service ("Terms") govern your use of HumanEdge Academy's website, 
                     mobile application, and educational services operated by International Education 
-                    Academy Corporate Network (IEACN).
+                    Academy Corporate Platform (IEACP).
                   </p>
                   <p>
                     By creating an account, accessing our platform, or using our services, you acknowledge 
@@ -250,7 +250,7 @@ export default function TermsPage() {
                     <h3 className="font-semibold mb-2">5.1 Our Content</h3>
                     <p>
                       All course materials, including videos, text, graphics, logos, and software, 
-                      are the property of IEACN or our content providers and are protected by 
+                      are the property of IEACP or our content providers and are protected by 
                       copyright and other intellectual property laws.
                     </p>
                   </div>
@@ -265,8 +265,8 @@ export default function TermsPage() {
                   <div>
                     <h3 className="font-semibold mb-2">5.3 Trademarks</h3>
                     <p>
-                      "HumanEdge Academy," "IEACN," and related logos are trademarks of 
-                      International Education Academy Corporate Network. Unauthorized use is prohibited.
+                      "HumanEdge Academy," "IEACP," and related logos are trademarks of 
+                      International Education Academy Corporate Platform. Unauthorized use is prohibited.
                     </p>
                   </div>
                 </CardContent>

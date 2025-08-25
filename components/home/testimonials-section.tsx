@@ -19,7 +19,7 @@ export function TestimonialsSection() {
       avatar: '/api/placeholder/60/60',
       initials: 'SJ',
       rating: 5,
-      testimonial: 'The hybrid learning model is perfect. Online lectures combined with monthly in-person seminars at the Manhattan campus created an ideal learning environment. The networking opportunities were invaluable.',
+      testimonial: 'The hybrid learning model is perfect. Online lectures combined with monthly in-person seminars at the Manhattan campus created an ideal learning environment. The professional connections made through the platform were invaluable.',
       year: '2023',
       learningMode: 'Hybrid'
     },
@@ -169,7 +169,7 @@ export function TestimonialsSection() {
             </div>
             <div className="text-center">
               <div className="text-2xl font-bold text-primary">15,000+</div>
-              <div className="text-sm text-muted-foreground">Alumni Network</div>
+              <div className="text-sm text-muted-foreground">Alumni Community</div>
             </div>
           </div>
         </div>

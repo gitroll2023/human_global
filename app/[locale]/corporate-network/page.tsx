@@ -11,10 +11,10 @@ import {
 } from 'lucide-react';
 import Link from 'next/link';
 
-export default function CorporateNetworkPage() {
+export default function CorporatePlatformPage() {
   const t = useTranslations();
 
-  const networkStats = [
+  const platformStats = [
     { icon: Globe, value: '20+', label: 'Operating Countries' },
     { icon: Building2, value: '50+', label: 'Corporate Offices' },
     { icon: Users, value: '500K+', label: 'Active Learners' },
@@ -24,7 +24,7 @@ export default function CorporateNetworkPage() {
   const corporatePhilosophy = [
     {
       title: 'Global Education Leadership',
-      description: 'Like the historic East India Companies that pioneered global trade, IEACN pioneers global education transformation',
+      description: 'Like the historic East India Companies that pioneered global trade, IEACP pioneers global education transformation',
       icon: Globe,
     },
     {
@@ -78,17 +78,17 @@ export default function CorporateNetworkPage() {
       description: 'Main learning management system and curriculum delivery',
     },
     {
-      division: 'IEACN Partners',
+      division: 'IEACP Partners',
       role: 'Strategic Partnerships',
       description: 'Managing university, corporate, and government collaborations',
     },
     {
-      division: 'IEACN Technology',
+      division: 'IEACP Technology',
       role: 'Innovation & Development',
       description: 'AI-powered learning tools and platform development',
     },
     {
-      division: 'IEACN Foundation',
+      division: 'IEACP Foundation',
       role: 'Social Impact',
       description: 'Scholarships and education access for underserved communities',
     },
@@ -102,18 +102,18 @@ export default function CorporateNetworkPage() {
           Multinational Education Corporation
         </Badge>
         <h1 className="text-4xl md:text-5xl font-bold mb-4">
-          International Education Academy Corporate Network
+          International Education Academy Corporate Platform
         </h1>
-        <p className="text-2xl font-semibold text-primary mb-4">IEACN</p>
+        <p className="text-2xl font-semibold text-primary mb-4">IEACP</p>
         <p className="text-lg text-muted-foreground max-w-4xl mx-auto">
           A multinational education corporation transforming global workforce development through 
           strategic partnerships, technology transfer, and economic empowerment across 20+ countries
         </p>
       </div>
 
-      {/* Network Stats */}
+      {/* Platform Stats */}
       <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-12">
-        {networkStats.map((stat, index) => {
+        {platformStats.map((stat, index) => {
           const Icon = stat.icon;
           return (
             <Card key={index} className="text-center border-2 hover:border-primary transition-colors">
@@ -136,7 +136,7 @@ export default function CorporateNetworkPage() {
           <CardTitle className="text-2xl">The Multinational Corporation Model</CardTitle>
           <CardDescription className="text-base mt-2">
             Following the historic precedent of multinational corporations like the East India Companies 
-            of the 17th century, IEACN operates as a modern education multinational, bringing economic 
+            of the 17th century, IEACP operates as a modern education multinational, bringing economic 
             development, employment opportunities, and technology transfer to emerging markets worldwide.
           </CardDescription>
         </CardHeader>
@@ -204,8 +204,8 @@ export default function CorporateNetworkPage() {
           <div>
             <h3 className="font-semibold mb-3">Employment Creation</h3>
             <p className="text-muted-foreground mb-4">
-              IEACN creates direct employment for over 5,000 professionals globally and indirect 
-              employment for 50,000+ through our partner network. In developing nations, we prioritize 
+              IEACP creates direct employment for over 5,000 professionals globally and indirect 
+              employment for 50,000+ through our licensing platform. In developing nations, we prioritize 
               local hiring, with 80% of positions filled by local talent.
             </p>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
@@ -227,7 +227,7 @@ export default function CorporateNetworkPage() {
           <div>
             <h3 className="font-semibold mb-3">Technology & Knowledge Transfer</h3>
             <p className="text-muted-foreground mb-4">
-              Through strategic partnerships and licensing agreements, IEACN transfers cutting-edge 
+              Through strategic partnerships and licensing agreements, IEACP transfers cutting-edge 
               educational technology and methodologies to developing markets, enabling local institutions 
               to enhance their capabilities and compete globally.
             </p>
@@ -243,7 +243,7 @@ export default function CorporateNetworkPage() {
           <div>
             <h3 className="font-semibold mb-3">Capital Investment</h3>
             <p className="text-muted-foreground">
-              IEACN has invested over $500 million in educational infrastructure across 20 countries, 
+              IEACP has invested over $500 million in educational infrastructure across 20 countries, 
               including technology centers, training facilities, and digital learning platforms. Our 
               investment strategy focuses on sustainable, long-term development that benefits local 
               communities.
@@ -279,7 +279,7 @@ export default function CorporateNetworkPage() {
         </CardHeader>
         <CardContent>
           <p className="text-center text-muted-foreground mb-6">
-            As a multinational education corporation, IEACN is committed to fostering international 
+            As a multinational education corporation, IEACP is committed to fostering international 
             cooperation, economic development, and social progress through education. We believe that 
             by creating employment opportunities, transferring technology and knowledge, and building 
             local capacity, we can contribute to sustainable development and prosperity in every market 
@@ -317,7 +317,7 @@ export default function CorporateNetworkPage() {
           Join the Global Education Revolution
         </h2>
         <p className="text-lg text-muted-foreground mb-8 max-w-3xl mx-auto">
-          Partner with IEACN to bring world-class education and economic development to your region
+          Partner with IEACP to bring world-class education and economic development to your region
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Link href="/partners">
